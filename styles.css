@@ -5,7 +5,7 @@
   --muted: #6d6d72;
   --line: rgba(0, 0, 0, 0.08);
   --blue: #2f5bff;
-  --sans: "IBM Plex Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 

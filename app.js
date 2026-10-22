@@ -1,8 +1,8 @@
-const CATS = ["全部", "产品", "金融", "零售", "编辑", "媒体", "工具"];
-const SANS = '"Inter", "PingFang SC", sans-serif';
+const CATS = ["All", "Product", "Finance", "Retail", "Editorial", "Media", "Tools"];
+const SANS = '"Inter", "Helvetica Neue", sans-serif';
 
 const state = {
-  cat: "全部",
+  cat: "All",
   q: "",
   id: location.hash.replace(/^#\/?/, "")
 };
@@ -92,18 +92,18 @@ function render() {
 function gallery() {
   const items = SYSTEMS.filter(match);
   if (!items.length) {
-    return `<p class="empty">没有叫这个的。换一个网站，或者换一种感觉。</p>`;
+    return `<p class="empty">Nothing matches. Try another site, or another feeling.</p>`;
   }
   return `
     <div class="grid">
       ${items.map(card).join("")}
     </div>
-    ${items.length === SYSTEMS.length ? `<p class="note">30 套都从公开页面归纳，不是官方规范。卡片上的字用相近的开源字体代替，原名写在详情里。</p>` : ""}
+    ${items.length === SYSTEMS.length ? `<p class="note">These 30 systems were studied from public pages, not official kits. Type on the cards is a close open-source stand-in. The original name is in the detail.</p>` : ""}
   `;
 }
 
 function match(system) {
-  if (state.cat !== "全部" && system.cat !== state.cat) return false;
+  if (state.cat !== "All" && system.cat !== state.cat) return false;
   if (!state.q) return true;
   const hay = [system.name, system.title, system.cat, system.use, system.face, ...system.principles]
     .join(" ")
@@ -114,7 +114,7 @@ function match(system) {
 function card(system) {
   return `
     <article class="card">
-      <button type="button" class="pv" data-kind="${system.kind}" data-paint="${system.id}" data-open="${system.id}" aria-label="打开 ${esc(system.name)}">
+      <button type="button" class="pv" data-kind="${system.kind}" data-paint="${system.id}" data-open="${system.id}" aria-label="Open ${esc(system.name)}">
         <i class="s1"></i><i class="s2" data-label="${esc(chip(system))}"></i><i class="s3"></i>
         <b>${esc(previewText(system))}</b>
       </button>
@@ -123,7 +123,7 @@ function card(system) {
           <h2>${esc(system.name)}</h2>
           <p>${esc(system.title)}</p>
         </div>
-        <button type="button" class="more" data-open="${system.id}">详情</button>
+        <button type="button" class="more" data-open="${system.id}">Details</button>
       </div>
     </article>
   `;
@@ -172,7 +172,7 @@ function chip(system) {
 function detail(system) {
   return `
     <article class="sheet">
-      <button type="button" class="back" data-close>返回</button>
+      <button type="button" class="back" data-close>Back</button>
       <section class="specimen" data-kind="${system.kind}" data-paint="${system.id}">
         <div class="sp-top">
           <strong>${esc(system.name)}</strong>
@@ -188,17 +188,17 @@ function detail(system) {
         <div class="sp-card">
           <span class="sp-k">Today</span>
           <b>24</b>
-          <input class="sp-in" value="Search" aria-label="示例输入" readonly>
+          <input class="sp-in" value="Search" aria-label="Example field" readonly>
         </div>
       </section>
       <div class="meta">
         <p class="lead">${esc(system.use)}</p>
         <p class="who"><a href="${esc(system.url)}" target="_blank" rel="noopener">${esc(system.url.replace(/^https?:\/\//, ""))}</a><span>${esc(system.cat)}</span></p>
-        <h2>原则</h2>
+        <h2>Principles</h2>
         <ul class="principles">
           ${system.principles.map((item) => `<li>${esc(item)}</li>`).join("")}
         </ul>
-        <h2>颜色</h2>
+        <h2>Colors</h2>
         <div class="swatches">
           ${system.colors.map(([name, hex]) => `
             <button type="button" class="swatch" data-hex="${esc(hex)}">
@@ -207,21 +207,21 @@ function detail(system) {
             </button>
           `).join("")}
         </div>
-        <h2>字体与形状</h2>
+        <h2>Type and shape</h2>
         <dl class="facts">
-          <div><dt>字体</dt><dd>${esc(system.face)}</dd></div>
-          <div><dt>字重</dt><dd>${esc(String(system.weight))}</dd></div>
-          <div><dt>字距</dt><dd>${esc(system.track)}</dd></div>
-          <div><dt>控件</dt><dd>${esc(system.r)}</dd></div>
-          <div><dt>卡片</dt><dd>${esc(system.rc)}</dd></div>
-          <div><dt>阴影</dt><dd>${esc(system.shadow)}</dd></div>
+          <div><dt>Typeface</dt><dd>${esc(system.face)}</dd></div>
+          <div><dt>Weight</dt><dd>${esc(String(system.weight))}</dd></div>
+          <div><dt>Tracking</dt><dd>${esc(system.track)}</dd></div>
+          <div><dt>Controls</dt><dd>${esc(system.r)}</dd></div>
+          <div><dt>Cards</dt><dd>${esc(system.rc)}</dd></div>
+          <div><dt>Shadow</dt><dd>${esc(system.shadow)}</dd></div>
         </dl>
         <div class="codehead">
-          <h2>变量</h2>
-          <button type="button" class="copy" data-copy-css="${esc(system.id)}">复制 CSS 变量</button>
+          <h2>Variables</h2>
+          <button type="button" class="copy" data-copy-css="${esc(system.id)}">Copy CSS variables</button>
         </div>
         <pre class="css">${esc(cssBlock(system))}</pre>
-        <p class="fine">点颜色即可复制色值。这是 2026 年 10 月对公开页面的观察，拿去用时换成你自己的内容。</p>
+        <p class="fine">Click a color to copy it. Studied from public pages in October 2026. Use it with your own content.</p>
       </div>
     </article>
   `;
@@ -296,7 +296,7 @@ async function copy(text) {
     document.execCommand("copy");
     area.remove();
   }
-  toast("已复制");
+  toast("Copied");
 }
 
 function toast(message) {

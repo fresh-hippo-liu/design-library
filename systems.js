@@ -3,8 +3,8 @@ window.SYSTEMS = [
   {
     id: "linear",
     name: "Linear",
-    title: "精密暗场",
-    cat: "产品",
+    title: "Precision dark",
+    cat: "Product",
     url: "https://linear.app",
     kind: "window",
     face: "Linear Sans / Inter",
@@ -26,27 +26,27 @@ window.SYSTEMS = [
     headline: "The issue, already moving.",
     note: "Hairline borders. One lavender action.",
     cta: "New issue",
-    use: "工具型产品，想要快、密、而且安静。",
+    use: "A tool that should feel fast, dense, and quiet.",
     principles: [
-      "强调色只留给主按钮、焦点和链接。页面上不再出现第二种鲜艳色。",
-      "层次靠深色表面逐级抬亮，不靠投影。",
-      "分割用 1px 发丝线。卡片不漂浮。",
-      "大标题用中等字重和负字距，不靠加粗来喊。"
+      "The accent is only for the primary button, focus, and links. No second bright color.",
+      "Depth comes from lifting dark surfaces, not from shadows.",
+      "Separate with a 1px hairline. Cards do not float.",
+      "Large titles use a medium weight and negative tracking, not bold."
     ],
     colors: [
-      ["画布", "#010102"],
-      ["表面", "#1C1E22"],
-      ["字", "#F7F8F8"],
-      ["次字", "#8A8F98"],
-      ["薰衣草", "#5E6AD2"],
-      ["线", "#23252A"]
+      ["Canvas", "#010102"],
+      ["Surface", "#1C1E22"],
+      ["Text", "#F7F8F8"],
+      ["Muted", "#8A8F98"],
+      ["Lavender", "#5E6AD2"],
+      ["Line", "#23252A"]
     ]
   },
   {
     id: "stripe",
     name: "Stripe",
-    title: "光带",
-    cat: "金融",
+    title: "Light ribbon",
+    cat: "Finance",
     url: "https://stripe.com",
     kind: "mesh",
     face: "Söhne",
@@ -68,27 +68,27 @@ window.SYSTEMS = [
     headline: "Money, drawn in light.",
     note: "The gradient is weather. The button is small.",
     cta: "Start now",
-    use: "复杂产品要显得精确，又要有一处贵气。",
+    use: "A complex product that should feel exact, with one expensive flourish.",
     principles: [
-      "渐变只做空气，出现在页首，绝不拿来填按钮或状态。",
-      "中性色全部偏蓝。暖灰会把这套系统弄脏。",
-      "大标题用轻字重，靠字号，不靠粗。",
-      "主按钮做成小胶囊。阴影带蓝灰，不要纯黑投影。"
+      "The gradient is weather. It belongs at the top of the page, never on a button or a status.",
+      "Neutrals are all blue-tinted. Warm gray dirties the system.",
+      "Display type is light. Scale does the work, not weight.",
+      "The primary button is a small pill. Shadows carry a blue-gray, not pure black."
     ],
     colors: [
-      ["纸", "#FFFFFF"],
-      ["雾", "#F6F9FC"],
-      ["墨蓝", "#061B31"],
-      ["正文", "#425466"],
-      ["模糊紫", "#533AFD"],
-      ["线", "#E5EDF5"]
+      ["Paper", "#FFFFFF"],
+      ["Mist", "#F6F9FC"],
+      ["Ink", "#061B31"],
+      ["Body", "#425466"],
+      ["Blurple", "#533AFD"],
+      ["Line", "#E5EDF5"]
     ]
   },
   {
     id: "vercel",
     name: "Vercel",
-    title: "黑白部署",
-    cat: "产品",
+    title: "Black and white",
+    cat: "Product",
     url: "https://vercel.com",
     kind: "stack",
     face: "Geist",
@@ -110,27 +110,27 @@ window.SYSTEMS = [
     headline: "Preview. Then ship.",
     note: "Black, white, and a gradient that never becomes a button.",
     cta: "Deploy",
-    use: "开发者产品，想让界面像一份干净的部署记录。",
+    use: "A developer product whose page should read like a clean deploy log.",
     principles: [
-      "界面本身只有黑与白。紫和蓝只许待在背景光里。",
-      "按钮和输入用 6px 圆角，比消费产品更利落。",
-      "字距在大标题上收紧，正文保持中性字重。",
-      "去掉装饰插画。产品界面的截图就是图片。"
+      "The interface itself is only black and white. Purple and blue stay in the background light.",
+      "Buttons and inputs use a 6px radius, sharper than a consumer product.",
+      "Tracking tightens on display type. Body stays at a neutral weight.",
+      "Skip decorative illustration. A product screenshot is the picture."
     ],
     colors: [
-      ["底", "#FAFAFA"],
-      ["卡片", "#FFFFFF"],
-      ["墨", "#171717"],
-      ["次字", "#4D4D4D"],
-      ["线", "#EBEBEB"],
-      ["光", "#7928CA"]
+      ["Ground", "#FAFAFA"],
+      ["Card", "#FFFFFF"],
+      ["Ink", "#171717"],
+      ["Muted", "#4D4D4D"],
+      ["Line", "#EBEBEB"],
+      ["Light", "#7928CA"]
     ]
   },
   {
     id: "apple",
     name: "Apple",
-    title: "产品白",
-    cat: "零售",
+    title: "Product white",
+    cat: "Retail",
     url: "https://apple.com",
     kind: "pills",
     face: "SF Pro",
@@ -152,27 +152,27 @@ window.SYSTEMS = [
     headline: "The object, larger than the page.",
     note: "Two blue pills. Then get out of the way.",
     cta: "Learn more",
-    use: "一个产品、一句话、一张大图的发布页。",
+    use: "A launch page: one product, one sentence, one large image.",
     principles: [
-      "每一屏只讲一件东西。标题、一行说明、两个胶囊。",
-      "背景在 #F5F5F7 和纯黑之间交替，产品照片居中。",
-      "链接和主按钮用同一种蓝。不要再发明第二种行动色。",
-      "大标题字距收紧，字重不必到最粗。"
+      "Each screen says one thing. A title, one line, two pills.",
+      "Backgrounds alternate between #F5F5F7 and pure black. The product sits centered.",
+      "Links and the primary button share one blue. Do not invent a second action color.",
+      "Display tracking is tight. The weight does not need to be the heaviest."
     ],
     colors: [
-      ["铝", "#F5F5F7"],
-      ["白", "#FFFFFF"],
-      ["字", "#1D1D1F"],
-      ["次字", "#6E6E73"],
-      ["蓝", "#0071E3"],
-      ["线", "#D2D2D7"]
+      ["Aluminum", "#F5F5F7"],
+      ["White", "#FFFFFF"],
+      ["Text", "#1D1D1F"],
+      ["Muted", "#6E6E73"],
+      ["Blue", "#0071E3"],
+      ["Line", "#D2D2D7"]
     ]
   },
   {
     id: "airbnb",
     name: "Airbnb",
-    title: "珊瑚",
-    cat: "零售",
+    title: "Coral",
+    cat: "Retail",
     url: "https://airbnb.com",
     kind: "pills",
     face: "Airbnb Cereal",
@@ -194,30 +194,30 @@ window.SYSTEMS = [
     headline: "A place, then a date.",
     note: "Photography first. Coral only on the action.",
     cta: "Search",
-    use: "靠照片成交，品牌色必须省着用。",
+    use: "A photo sells the stay. Spend the brand color sparingly.",
     principles: [
-      "珊瑚红只出现在标志、主按钮和少量标记上。",
-      "标题用重字重的几何无衬线，正文退成中灰。",
-      "照片圆角大约 16px，界面其余部分更圆，接近胶囊。",
-      "底是近白，不要再铺一层彩色背景跟照片抢。"
+      "Coral appears on the mark, the primary button, and a few badges.",
+      "Headlines are a heavy geometric sans. Body recedes to mid gray.",
+      "Photos use about a 16px radius. The rest of the UI is rounder, close to a pill.",
+      "The ground is near-white. Do not lay a colored field under the photograph."
     ],
     colors: [
-      ["白", "#FFFFFF"],
-      ["灰底", "#F7F7F7"],
-      ["字", "#222222"],
-      ["珊瑚", "#FF385C"],
-      ["浅珊瑚", "#FFD1DA"],
-      ["线", "#DDDDDD"]
+      ["White", "#FFFFFF"],
+      ["Gray", "#F7F7F7"],
+      ["Text", "#222222"],
+      ["Coral", "#FF385C"],
+      ["Pale coral", "#FFD1DA"],
+      ["Line", "#DDDDDD"]
     ]
   },
   {
     id: "aesop",
     name: "Aesop",
-    title: "药剂纸",
-    cat: "零售",
+    title: "Apothecary",
+    cat: "Retail",
     url: "https://www.aesop.com",
     kind: "paper",
-    face: "Suisse Intl + 人文衬线",
+    face: "Suisse Intl + humanist serif",
     css: '"Newsreader", "Iowan Old Style", serif',
     weight: 460,
     track: "0em",
@@ -236,27 +236,27 @@ window.SYSTEMS = [
     headline: "A formulation for the hands.",
     note: "No accent color. No shadow. No radius.",
     cta: "Add",
-    use: "零售想显得克制、可阅读，而不是在促销。",
+    use: "Retail that should feel restrained and readable, not on sale.",
     principles: [
-      "只有羊皮纸和炭黑。不要强调色。",
-      "圆角是 0，阴影是无。边界靠留白和细线。",
-      "情绪句用衬线，功能信息用中性无衬线。",
-      "正文可以大到值得读。产品照片全幅，界面退开。"
+      "Parchment and charcoal only. There is no accent color.",
+      "Radius is 0. Shadow is none. Edges come from space and a hairline.",
+      "Emotional lines are serif. Functional information is a neutral sans.",
+      "Body copy can be large enough to enjoy. Photography is full-bleed. The UI steps back."
     ],
     colors: [
-      ["纸", "#FFFEF2"],
-      ["炭", "#333333"],
-      ["次字", "#6E6A62"],
-      ["线", "#E4E0D0"],
-      ["石", "#C5C1B0"],
-      ["内页", "#F3F1E4"]
+      ["Paper", "#FFFEF2"],
+      ["Charcoal", "#333333"],
+      ["Muted", "#6E6A62"],
+      ["Line", "#E4E0D0"],
+      ["Stone", "#C5C1B0"],
+      ["Page", "#F3F1E4"]
     ]
   },
   {
     id: "arc",
     name: "Arc",
-    title: "电蓝",
-    cat: "产品",
+    title: "Electric blue",
+    cat: "Product",
     url: "https://arc.net",
     kind: "signal",
     face: "Marlin",
@@ -278,27 +278,27 @@ window.SYSTEMS = [
     headline: "Meet the next tab.",
     note: "One ultramarine. Cream so the color can land.",
     cta: "Download",
-    use: "消费软件，想有海报感，但仍然像一个产品。",
+    use: "Consumer software with a poster feeling that still behaves like a product.",
     principles: [
-      "电光群青是唯一的品牌电压。奶油底是为了让它落下来。",
-      "标题用定制显示字体的感觉：几何、略圆、字距紧。",
-      "其余界面保持安静，把房间留给名字和这个颜色。",
-      "圆角偏大。这是软件，但版式更像一本杂志的封面。"
+      "Electric ultramarine is the only brand voltage. Cream exists so that color can land.",
+      "The headline feels like a custom display face: geometric, slightly round, tightly tracked.",
+      "The rest of the interface stays quiet and leaves the room to the name and this color.",
+      "Radius runs large. It is software, set like a magazine cover."
     ],
     colors: [
-      ["奶油", "#FFFCEC"],
-      ["白", "#FFFFFF"],
-      ["墨", "#141414"],
-      ["电蓝", "#3139FB"],
-      ["桃", "#FFB38A"],
-      ["线", "#E7E2C8"]
+      ["Cream", "#FFFCEC"],
+      ["White", "#FFFFFF"],
+      ["Ink", "#141414"],
+      ["Electric", "#3139FB"],
+      ["Peach", "#FFB38A"],
+      ["Line", "#E7E2C8"]
     ]
   },
   {
     id: "claude",
     name: "Claude",
-    title: "陶土",
-    cat: "编辑",
+    title: "Clay",
+    cat: "Editorial",
     url: "https://claude.com",
     kind: "paper",
     face: "Copernicus / Tiempos",
@@ -320,27 +320,27 @@ window.SYSTEMS = [
     headline: "A slower kind of answer.",
     note: "Warm paper, a clay action, serif display.",
     cta: "Ask",
-    use: "研究、写作、对话。想要人文，而不是霓虹。",
+    use: "Research, writing, and conversation. Humanist, not neon.",
     principles: [
-      "画布是暖象牙，不是冷灰白。这是这套系统的第一决定。",
-      "标题用厚实的衬线，正文可以换成无衬线，但不要两套都在喊。",
-      "陶土色只做主行动。青绿和琥珀是点缀，不是第二品牌色。",
-      "动效慢，大约 0.8 秒。急促的弹跳会破坏语气。"
+      "The canvas is warm ivory. That is the first decision of the system.",
+      "Headlines use a sturdy serif. Body can switch to sans, but both should not shout.",
+      "Clay is only the primary action. Teal and amber are accents, not a second brand color.",
+      "Motion is slow, about 0.8s. A snappy bounce breaks the tone."
     ],
     colors: [
-      ["象牙", "#FAF9F5"],
-      ["表面", "#F5F0E8"],
-      ["墨", "#181715"],
-      ["陶土", "#CC785C"],
-      ["青绿", "#5DB8A6"],
-      ["线", "#E8E0D2"]
+      ["Ivory", "#FAF9F5"],
+      ["Surface", "#F5F0E8"],
+      ["Ink", "#181715"],
+      ["Clay", "#CC785C"],
+      ["Teal", "#5DB8A6"],
+      ["Line", "#E8E0D2"]
     ]
   },
   {
     id: "notion",
     name: "Notion",
-    title: "便签",
-    cat: "产品",
+    title: "Sticky notes",
+    cat: "Product",
     url: "https://www.notion.com",
     kind: "blocks",
     face: "Notion Sans",
@@ -362,27 +362,27 @@ window.SYSTEMS = [
     headline: "A page with many rooms.",
     note: "White chrome. Color lives on the notes.",
     cta: "Get Notion",
-    use: "工作台。颜色属于用户的内容，不属于导航。",
+    use: "A workspace. Color belongs to the user's content, not the navigation.",
     principles: [
-      "界面骨架是白和暖灰。紫按钮是唯一固定的品牌动作。",
-      "黄、薄荷、桃、薰衣草用在内容块上，像便签，不做成按钮。",
-      "按钮是 8px 圆角的矩形，不是胶囊。",
-      "深海军蓝只适合页首的一条色带，不要整站铺暗色。"
+      "The chrome is white and warm gray. The purple button is the only fixed brand action.",
+      "Yellow, mint, peach, and lavender live on content blocks, like notes, not as buttons.",
+      "Buttons are 8px rectangles, not pills.",
+      "Deep navy is for one band at the top of the page, not a dark site."
     ],
     colors: [
-      ["白", "#FFFFFF"],
-      ["暖灰", "#F6F5F4"],
-      ["字", "#1A1A1A"],
-      ["紫", "#5645D4"],
-      ["黄", "#F5D75E"],
-      ["薄荷", "#D9F3E1"]
+      ["White", "#FFFFFF"],
+      ["Warm gray", "#F6F5F4"],
+      ["Text", "#1A1A1A"],
+      ["Purple", "#5645D4"],
+      ["Yellow", "#F5D75E"],
+      ["Mint", "#D9F3E1"]
     ]
   },
   {
     id: "figma",
     name: "Figma",
-    title: "色块",
-    cat: "产品",
+    title: "Color blocks",
+    cat: "Product",
     url: "https://www.figma.com",
     kind: "blocks",
     face: "figmaSans",
@@ -404,27 +404,27 @@ window.SYSTEMS = [
     headline: "A clean desk. Then a note.",
     note: "Monochrome chrome. Pastel panels do the talking.",
     cta: "Try Figma",
-    use: "工具可以严肃，段落之间仍可以换一块颜色。",
+    use: "A serious tool that can still change color between sections.",
     principles: [
-      "导航、正文、主按钮保持黑白。颜色放进整块背景，不放进图标。",
-      "色块用石灰、丁香、奶油、薄荷、粉，像便签拍在桌上。",
-      "大标题字重偏轻（大约 340），字距明显为负。",
-      "主按钮是黑胶囊。圆角大的是色块，不是控件。"
+      "Navigation, body, and the primary button stay black and white. Color fills whole panels, not icons.",
+      "Blocks are lime, lilac, cream, mint, and pink, like notes dropped on a desk.",
+      "Display weight stays light, around 340, with clearly negative tracking.",
+      "The primary button is a black pill. Large radius belongs to the color blocks, not the controls."
     ],
     colors: [
-      ["白", "#FFFFFF"],
-      ["墨", "#000000"],
-      ["石灰", "#DCEEB1"],
-      ["丁香", "#C5B0F4"],
-      ["粉", "#EFD4D4"],
-      ["奶油", "#F4ECD6"]
+      ["White", "#FFFFFF"],
+      ["Ink", "#000000"],
+      ["Lime", "#DCEEB1"],
+      ["Lilac", "#C5B0F4"],
+      ["Pink", "#EFD4D4"],
+      ["Cream", "#F4ECD6"]
     ]
   },
   {
     id: "framer",
     name: "Framer",
-    title: "黑舞台",
-    cat: "产品",
+    title: "Black stage",
+    cat: "Product",
     url: "https://www.framer.com",
     kind: "mesh",
     face: "GT Walsheim",
@@ -446,27 +446,27 @@ window.SYSTEMS = [
     headline: "The page is the artboard.",
     note: "White pills. Color only inside the showcase.",
     cta: "Start",
-    use: "作品集或构建工具，页面本身就该动、该大。",
+    use: "A portfolio or a builder. The page itself should move, and it should be large.",
     principles: [
-      "画布近黑。主按钮是白胶囊，字是黑的。",
-      "蓝色只给链接和选中，大约 #0099FF。",
-      "品红、紫、橙的光只出现在展示块里，像聚光灯。",
-      "显示标题字距可以收到很负。这是海报，不是仪表盘。"
+      "The canvas is near-black. The primary button is a white pill with black type.",
+      "Blue is for links and selection, about #0099FF.",
+      "Magenta, violet, and orange light appear only inside showcase tiles, like spotlights.",
+      "Display tracking can go very negative. This is a poster, not a dashboard."
     ],
     colors: [
-      ["舞台", "#090909"],
-      ["表面", "#141414"],
-      ["白", "#FFFFFF"],
-      ["次字", "#999999"],
-      ["品红", "#D44DF0"],
-      ["橙", "#FF7A3D"]
+      ["Stage", "#090909"],
+      ["Surface", "#141414"],
+      ["White", "#FFFFFF"],
+      ["Muted", "#999999"],
+      ["Magenta", "#D44DF0"],
+      ["Orange", "#FF7A3D"]
     ]
   },
   {
     id: "raycast",
     name: "Raycast",
-    title: "命令条",
-    cat: "工具",
+    title: "Command bar",
+    cat: "Tools",
     url: "https://www.raycast.com",
     kind: "window",
     face: "Inter ss03",
@@ -488,27 +488,27 @@ window.SYSTEMS = [
     headline: "Type the next action.",
     note: "The marketing page is the command palette.",
     cta: "Download",
-    use: "桌面工具的网站，应该看起来就像那个工具。",
+    use: "A desktop tool's website should look like the tool.",
     principles: [
-      "整站停在一种暗色里，不要中途切到白底营销段。",
-      "主按钮是白胶囊。红色只做页顶的一条发射带。",
-      "卡片像命令面板：6–16px 圆角，1px 冷灰线。",
-      "字用 Inter，打开 ss03。那个双层 g 是识别点。"
+      "The whole site stays in one dark tone. Do not switch to a white marketing band halfway down.",
+      "The primary button is a white pill. Red is a single launch stripe at the top.",
+      "Cards behave like a command palette: 6–16px radius, a 1px cool-gray line.",
+      "Set the type in Inter with ss03 on. The two-story g is the tell."
     ],
     colors: [
-      ["画布", "#07080A"],
-      ["面板", "#18191A"],
-      ["字", "#F4F4F6"],
-      ["线", "#242728"],
-      ["白按钮", "#FFFFFF"],
-      ["红", "#FF6363"]
+      ["Canvas", "#07080A"],
+      ["Panel", "#18191A"],
+      ["Text", "#F4F4F6"],
+      ["Line", "#242728"],
+      ["White button", "#FFFFFF"],
+      ["Red", "#FF6363"]
     ]
   },
   {
     id: "spotify",
     name: "Spotify",
-    title: "夜场",
-    cat: "媒体",
+    title: "Night",
+    cat: "Media",
     url: "https://spotify.com",
     kind: "window",
     face: "Circular",
@@ -531,27 +531,27 @@ window.SYSTEMS = [
     note: "The interface is dark so the cover can glow.",
     cta: "Play",
     caps: true,
-    use: "内容自己有颜色时，界面应当退成炭黑。",
+    use: "When the content has its own color, the interface should recede to charcoal.",
     principles: [
-      "界面无彩色。绿只表示播放、选中和主行动。",
-      "绿底上的字用黑，不用白。",
-      "卡片比按钮方。按钮和播放键用胶囊或正圆。",
-      "专辑图是色彩来源。不要再画一套插画配色。"
+      "The interface is achromatic. Green means play, selected, and the primary action.",
+      "Type on green is black.",
+      "Cards are squarer than buttons. Buttons and the play control are pills or circles.",
+      "Album art is the color source. Do not invent a second illustration palette."
     ],
     colors: [
-      ["夜", "#121212"],
-      ["卡片", "#181818"],
-      ["字", "#FFFFFF"],
-      ["银", "#B3B3B3"],
-      ["绿", "#1ED760"],
-      ["线", "#282828"]
+      ["Night", "#121212"],
+      ["Card", "#181818"],
+      ["Text", "#FFFFFF"],
+      ["Silver", "#B3B3B3"],
+      ["Green", "#1ED760"],
+      ["Line", "#282828"]
     ]
   },
   {
     id: "nike",
     name: "Nike",
-    title: "巨字",
-    cat: "零售",
+    title: "Giant type",
+    cat: "Retail",
     url: "https://www.nike.com",
     kind: "poster",
     face: "Futura",
@@ -574,27 +574,27 @@ window.SYSTEMS = [
     note: "Type is cropped. The photograph does the rest.",
     cta: "Shop",
     caps: true,
-    use: "运动、时尚、活动。字要大到像画面的一部分。",
+    use: "Sport, fashion, events. Type should be large enough to be part of the picture.",
     principles: [
-      "照片全幅。界面几乎不存在。",
-      "标题用窄几何体、全大写，可以超出容器。",
-      "黑和白就够。红色不是日常界面色。",
-      "按钮是胶囊，字小，不要跟标题抢尺度。"
+      "Photography is full-bleed. The interface nearly disappears.",
+      "Headlines are a narrow geometric, set in uppercase, and may crop out of the frame.",
+      "Black and white are enough. Red is not an everyday interface color.",
+      "Buttons are pills, and the label stays small so it does not compete with the headline."
     ],
     colors: [
-      ["黑", "#111111"],
-      ["白", "#FFFFFF"],
-      ["灰底", "#F5F5F5"],
-      ["次字", "#707072"],
-      ["线", "#E5E5E5"],
-      ["红", "#D30005"]
+      ["Black", "#111111"],
+      ["White", "#FFFFFF"],
+      ["Gray", "#F5F5F5"],
+      ["Muted", "#707072"],
+      ["Line", "#E5E5E5"],
+      ["Red", "#D30005"]
     ]
   },
   {
     id: "wise",
     name: "Wise",
-    title: "酸绿",
-    cat: "金融",
+    title: "Acid green",
+    cat: "Finance",
     url: "https://wise.com",
     kind: "pills",
     face: "Wise Sans",
@@ -616,27 +616,27 @@ window.SYSTEMS = [
     headline: "The real price, up front.",
     note: "Lime pill, forest text, sage paper.",
     cta: "Send money",
-    use: "钱的产品想显得简单、明亮、不客气。",
+    use: "A money product that should feel simple, bright, and plain-spoken.",
     principles: [
-      "酸绿是按钮和标记，不是大面积背景。大面积用鼠尾草绿。",
-      "绿按钮上的字是深林绿，不是白色。",
-      "标题重、句子短。不要金融腔。",
-      "控件全是胶囊。卡片可以 16–24px，仍然比按钮方。"
+      "Acid green is the button and the marker, not a large background. Large fields use sage.",
+      "Type on the green button is forest green.",
+      "Headlines are heavy and sentences are short.",
+      "Controls are pills. Cards can be 16–24px and still squarer than the button."
     ],
     colors: [
-      ["鼠尾草", "#E8EBE6"],
-      ["白", "#FFFFFF"],
-      ["墨", "#0E0F0C"],
-      ["酸绿", "#9FE870"],
-      ["林", "#163300"],
-      ["线", "#D5DDD0"]
+      ["Sage", "#E8EBE6"],
+      ["White", "#FFFFFF"],
+      ["Ink", "#0E0F0C"],
+      ["Acid", "#9FE870"],
+      ["Forest", "#163300"],
+      ["Line", "#D5DDD0"]
     ]
   },
   {
     id: "posthog",
     name: "PostHog",
-    title: "素描",
-    cat: "工具",
+    title: "Sketchbook",
+    cat: "Tools",
     url: "https://posthog.com",
     kind: "paper",
     face: "IBM Plex Sans",
@@ -658,27 +658,27 @@ window.SYSTEMS = [
     headline: "Notes from the build.",
     note: "Cream sketchbook. Hedgehog yellow. Small radius.",
     cta: "Get started",
-    use: "开发者产品不想装成银行，也不想装成霓虹。",
+    use: "A developer product that should not dress as a bank or as neon.",
     principles: [
-      "底是暖奶油灰，不是纯白，也不是暗色控制台。",
-      "黄是刺猬的黄，用在按钮和涂鸦上，字用深橄榄。",
-      "圆角很小，大约 6px。再圆就不可笑了，会变可爱软件。",
-      "手绘只做点缀。版面本身仍然是整齐的产品网格。"
+      "The ground is warm cream-gray, not pure white and not a dark console.",
+      "The yellow is the hedgehog's yellow, used on buttons and doodles. Type is deep olive.",
+      "Radius stays small, about 6px. Rounder than that stops being funny and becomes cute software.",
+      "Drawing is a garnish. The layout itself remains a tidy product grid."
     ],
     colors: [
-      ["素描纸", "#EEEFE9"],
-      ["白", "#FFFFFF"],
-      ["橄榄墨", "#23251D"],
-      ["刺猬黄", "#F7A501"],
-      ["次字", "#4D4F46"],
-      ["线", "#DCDFD2"]
+      ["Sketch", "#EEEFE9"],
+      ["White", "#FFFFFF"],
+      ["Olive", "#23251D"],
+      ["Hedgehog", "#F7A501"],
+      ["Muted", "#4D4F46"],
+      ["Line", "#DCDFD2"]
     ]
   },
   {
     id: "resend",
     name: "Resend",
-    title: "衬线黑",
-    cat: "编辑",
+    title: "Serif black",
+    cat: "Editorial",
     url: "https://resend.com",
     kind: "stack",
     face: "Domaine Display + ABC Favorit",
@@ -700,30 +700,30 @@ window.SYSTEMS = [
     headline: "Email, set in serif.",
     note: "The headline is the brand color.",
     cta: "Get started",
-    use: "开发者工具想借印刷品的语气，而不是再做一个暗色仪表盘。",
+    use: "A developer tool borrowing the tone of print, not another dark dashboard.",
     principles: [
-      "黑底上最大的东西是衬线标题，不是按钮。",
-      "按钮近白、12px 圆角。不要再加一条霓虹边。",
-      "蓝和橙是代码与状态的颜色，不是页首装饰。",
-      "分割线用 6%–14% 的白，不要用实色灰线。"
+      "The largest thing on the black canvas is the serif headline, not a button.",
+      "Buttons are near-white with a 12px radius. Do not add a neon edge.",
+      "Blue and orange are for code and status, not hero decoration.",
+      "Dividers are 6%–14% white, not a solid gray line."
     ],
     colors: [
-      ["黑", "#000000"],
-      ["表面", "#141418"],
-      ["字", "#FCFDFF"],
-      ["次字", "#A1A4A5"],
-      ["蓝", "#3B9EFF"],
-      ["橙", "#FF801F"]
+      ["Black", "#000000"],
+      ["Surface", "#141418"],
+      ["Text", "#FCFDFF"],
+      ["Muted", "#A1A4A5"],
+      ["Blue", "#3B9EFF"],
+      ["Orange", "#FF801F"]
     ]
   },
   {
     id: "slack",
     name: "Slack",
-    title: "茄紫",
-    cat: "产品",
+    title: "Aubergine",
+    cat: "Product",
     url: "https://slack.com",
     kind: "pills",
-    face: "Slack 无衬线",
+    face: "Slack sans",
     css: '"DM Sans", "Helvetica Neue", sans-serif',
     weight: 700,
     track: "-0.03em",
@@ -742,27 +742,27 @@ window.SYSTEMS = [
     headline: "Where the thread lives.",
     note: "Aubergine does the work. Cream keeps it soft.",
     cta: "Get started",
-    use: "协作产品。一个深色品牌，配一张暖和的纸。",
+    use: "Collaboration. One deep brand color, on warm paper.",
     principles: [
-      "茄紫是按钮、页脚和标志。不要把它铺满每一个标题。",
-      "页面底用奶油，卡片用白。纯白整页会变冷。",
-      "黄是耳标，不是第二主色。",
-      "圆角中等。这是工作软件，不是糖果。"
+      "Aubergine is the button, the footer, and the mark. Do not pour it over every headline.",
+      "The page ground is cream. Cards are white. A pure-white page goes cold.",
+      "Yellow is an ear-mark, not a second primary.",
+      "Radius stays medium. This is work software, not candy."
     ],
     colors: [
-      ["奶油", "#F4EDE4"],
-      ["白", "#FFFFFF"],
-      ["字", "#1D1D1D"],
-      ["茄紫", "#4A154B"],
-      ["黄", "#ECB22E"],
-      ["淡紫", "#F9F0FF"]
+      ["Cream", "#F4EDE4"],
+      ["White", "#FFFFFF"],
+      ["Text", "#1D1D1D"],
+      ["Aubergine", "#4A154B"],
+      ["Yellow", "#ECB22E"],
+      ["Lilac", "#F9F0FF"]
     ]
   },
   {
     id: "cursor",
     name: "Cursor",
-    title: "暖橙",
-    cat: "工具",
+    title: "Warm orange",
+    cat: "Tools",
     url: "https://cursor.com",
     kind: "paper",
     face: "Cursor Gothic",
@@ -784,27 +784,27 @@ window.SYSTEMS = [
     headline: "The editor stays quiet.",
     note: "Cream page. Orange only on the action.",
     cta: "Download",
-    use: "开发工具想要编辑部的冷静，而不是 IDE 的黑。",
+    use: "A developer tool that wants an editorial calm, not the black of an IDE.",
     principles: [
-      "营销页是暖奶油，不是暗色编辑器。这是故意的。",
-      "橙只给主按钮和字标。时间线里的淡彩只属于产品内部。",
-      "标题字重 400，靠负字距，不靠粗体。",
-      "卡片用发丝线，不用阴影。代码用等宽字体。"
+      "The marketing page is warm cream. That is deliberate.",
+      "Orange is for the primary button and the wordmark. The pale timeline colors belong inside the product.",
+      "Display weight is 400. Negative tracking does the work, not bold.",
+      "Cards use a hairline, not a shadow. Code is monospace."
     ],
     colors: [
-      ["奶油", "#F7F7F4"],
-      ["白", "#FFFFFF"],
-      ["暖墨", "#26251E"],
-      ["橙", "#F54E00"],
-      ["次字", "#5A5852"],
-      ["线", "#E6E5E0"]
+      ["Cream", "#F7F7F4"],
+      ["White", "#FFFFFF"],
+      ["Warm ink", "#26251E"],
+      ["Orange", "#F54E00"],
+      ["Muted", "#5A5852"],
+      ["Line", "#E6E5E0"]
     ]
   },
   {
     id: "pinterest",
     name: "Pinterest",
-    title: "图钉",
-    cat: "媒体",
+    title: "Pin",
+    cat: "Media",
     url: "https://www.pinterest.com",
     kind: "pills",
     face: "Pin Sans",
@@ -826,27 +826,27 @@ window.SYSTEMS = [
     headline: "Save the picture.",
     note: "Red is the pin. The photo is everything else.",
     cta: "Explore",
-    use: "图片产品。界面要让出画面，红只做标记。",
+    use: "An image product. The interface yields to the picture. Red is only a marker.",
     principles: [
-      "红 #E60023 是图钉和主按钮，不是背景。",
-      "中性色偏暖，不要冷灰。",
-      "图片容器可以很圆，到 32px。界面文字保持平实。",
-      "少放控件。一张图能说的，不要写成一段。"
+      "Red #E60023 is the pin and the primary button, not a background.",
+      "Neutrals run warm.",
+      "Image containers can be very round, up to 32px. Interface type stays plain.",
+      "Use few controls. If a picture can say it, do not write a paragraph."
     ],
     colors: [
-      ["暖白", "#FBFBF9"],
-      ["卡片", "#FFFFFF"],
-      ["字", "#262622"],
-      ["红", "#E60023"],
-      ["暖灰", "#F6F6F3"],
-      ["线", "#E5E5E0"]
+      ["Warm white", "#FBFBF9"],
+      ["Card", "#FFFFFF"],
+      ["Text", "#262622"],
+      ["Red", "#E60023"],
+      ["Warm gray", "#F6F6F3"],
+      ["Line", "#E5E5E0"]
     ]
   },
   {
     id: "theverge",
     name: "The Verge",
-    title: "警示带",
-    cat: "媒体",
+    title: "Hazard tape",
+    cat: "Media",
     url: "https://www.theverge.com",
     kind: "poster",
     face: "Manuka + PolySans",
@@ -869,27 +869,27 @@ window.SYSTEMS = [
     note: "Mint and ultraviolet, in solid blocks.",
     cta: "Read",
     caps: true,
-    use: "媒体首页。需要大声，但仍然是格子，不是海报糊成一团。",
+    use: "A media homepage. Loud, but still a grid, not a collage of posters.",
     principles: [
-      "没有浅色模式。画布是 #131313。",
-      "薄荷绿和紫外只做成实心块和 1px 线，不要渐变。",
-      "亮色块上的字用纯黑。暗底上的字用白。",
-      "圆角接近 0。阴影不做层次，线做层次。"
+      "There is no light mode. The canvas is #131313.",
+      "Mint and ultraviolet are solid blocks and 1px lines, not gradients.",
+      "Type on a bright block is pure black. Type on the dark canvas is white.",
+      "Radius is close to 0. Lines make the hierarchy, not shadows."
     ],
     colors: [
-      ["画布", "#131313"],
-      ["石板", "#2D2D2D"],
-      ["薄荷", "#3CFFD0"],
-      ["紫外", "#5200FF"],
-      ["白", "#FFFFFF"],
-      ["次字", "#949494"]
+      ["Canvas", "#131313"],
+      ["Slate", "#2D2D2D"],
+      ["Mint", "#3CFFD0"],
+      ["Ultraviolet", "#5200FF"],
+      ["White", "#FFFFFF"],
+      ["Muted", "#949494"]
     ]
   },
   {
     id: "spacex",
     name: "SpaceX",
-    title: "发射",
-    cat: "媒体",
+    title: "Launch",
+    cat: "Media",
     url: "https://www.spacex.com",
     kind: "poster",
     face: "D-DIN",
@@ -912,30 +912,30 @@ window.SYSTEMS = [
     note: "Black, white, uppercase. The video is the color.",
     cta: "Watch",
     caps: true,
-    use: "只有一件巨大的事要说，画面自己会动。",
+    use: "One enormous thing to say. The picture moves on its own.",
     principles: [
-      "没有品牌色。黑与白就是全部。",
-      "标题全大写，行距紧，字距可以略松。",
-      "不要卡片网格，不要插画，不要彩色按钮。",
-      "影像全出血。界面缩成角落里的字。"
+      "There is no brand color. Black and white are the whole palette.",
+      "Headlines are uppercase, tightly leaded, with tracking that can open slightly.",
+      "No card grid, no illustration, no colored button.",
+      "Imagery bleeds to the edge. The interface shrinks to type in the corner."
     ],
     colors: [
-      ["黑", "#000000"],
-      ["白", "#FFFFFF"],
-      ["雾白", "#F0F0FA"],
-      ["灰", "#3A3A3F"],
-      ["次字", "#5A5A5F"],
-      ["线", "#E0E0E8"]
+      ["Black", "#000000"],
+      ["White", "#FFFFFF"],
+      ["Mist", "#F0F0FA"],
+      ["Gray", "#3A3A3F"],
+      ["Muted", "#5A5A5F"],
+      ["Line", "#E0E0E8"]
     ]
   },
   {
     id: "zapier",
     name: "Zapier",
-    title: "咖啡橙",
-    cat: "工具",
+    title: "Coffee orange",
+    cat: "Tools",
     url: "https://zapier.com",
     kind: "paper",
-    face: "Zapier 无衬线",
+    face: "Zapier sans",
     css: '"DM Sans", "Helvetica Neue", sans-serif',
     weight: 700,
     track: "-0.03em",
@@ -954,30 +954,30 @@ window.SYSTEMS = [
     headline: "Connect the two tools.",
     note: "Coffee ink, one orange, warm paper.",
     cta: "Start free",
-    use: "自动化、表单、后台。想要成熟，而不是又一块紫。",
+    use: "Automation, forms, and back office. Mature, not another purple.",
     principles: [
-      "墨色偏咖啡，不要纯黑，也不要蓝黑。",
-      "橙 #FF4F00 只做主按钮和关键标记。",
-      "画布是暖得几乎看不出来的纸，卡片再暖一度。",
-      "按钮用胶囊。其余保持矩形，避免整页都在发圆。"
+      "Ink leans coffee, not pure black and not blue-black.",
+      "Orange #FF4F00 is only the primary button and key markers.",
+      "The canvas is paper so warm it is almost invisible. Cards are one step warmer.",
+      "Buttons are pills. Everything else stays rectangular, so the page does not go round all over."
     ],
     colors: [
-      ["纸", "#FFFEFB"],
-      ["卡片", "#F8F4F0"],
-      ["咖啡", "#201515"],
-      ["橙", "#FF4F00"],
-      ["次字", "#605D52"],
-      ["线", "#E6DFD6"]
+      ["Paper", "#FFFEFB"],
+      ["Card", "#F8F4F0"],
+      ["Coffee", "#201515"],
+      ["Orange", "#FF4F00"],
+      ["Muted", "#605D52"],
+      ["Line", "#E6DFD6"]
     ]
   },
   {
     id: "mistral",
     name: "Mistral",
-    title: "日落",
-    cat: "编辑",
+    title: "Sunset",
+    cat: "Editorial",
     url: "https://mistral.ai",
     kind: "mesh",
-    face: "近衬线显示字",
+    face: "Near-serif display",
     css: '"Newsreader", "Iowan Old Style", serif',
     weight: 500,
     track: "-0.02em",
@@ -996,27 +996,27 @@ window.SYSTEMS = [
     headline: "Light on the ridge.",
     note: "Mustard air. One orange action. A stripe at the end.",
     cta: "Try it",
-    use: "技术品牌想要风景，而不是电路板。",
+    use: "A technical brand that wants a landscape, not a circuit board.",
     principles: [
-      "日落是整页的空气：芥末、橙、深暖黄。按钮只用最饱和的那一档橙。",
-      "标题带衬线的语气，不要用极粗的科技无衬线。",
-      "页的结尾留一条横向色带，当作这套系统的句号。",
-      "奶油表面和白卡片交替。代码块才进入近黑。"
+      "Sunset is the air of the page: mustard, orange, deep warm yellow. The button uses only the most saturated orange.",
+      "Headlines carry a serif tone, not an ultra-bold tech sans.",
+      "End the page with a horizontal color band. That is the period.",
+      "Cream surfaces and white cards alternate. Near-black is for code."
     ],
     colors: [
-      ["奶油", "#FFF8E0"],
-      ["白", "#FFFFFF"],
-      ["墨", "#1F1F1F"],
-      ["橙", "#FA520F"],
-      ["日", "#FFD06A"],
-      ["深橙", "#FF8105"]
+      ["Cream", "#FFF8E0"],
+      ["White", "#FFFFFF"],
+      ["Ink", "#1F1F1F"],
+      ["Orange", "#FA520F"],
+      ["Sun", "#FFD06A"],
+      ["Deep orange", "#FF8105"]
     ]
   },
   {
     id: "miro",
     name: "Miro",
-    title: "金丝雀",
-    cat: "产品",
+    title: "Canary",
+    cat: "Product",
     url: "https://miro.com",
     kind: "blocks",
     face: "Roobert",
@@ -1038,30 +1038,30 @@ window.SYSTEMS = [
     headline: "Stick it on the wall.",
     note: "Canary yellow mark. Black pill. Pastel notes.",
     cta: "Get started",
-    use: "协作白板。颜色要像便利贴，按钮要像黑墨。",
+    use: "A collaborative whiteboard. Color should feel like sticky notes. The button should feel like black ink.",
     principles: [
-      "黄是标志和色块，主按钮反而是黑胶囊。",
-      "玫瑰、青绿、珊瑚用在便签上，饱和度中等。",
-      "白底负责让这些颜色看起来像贴上去的。",
-      "真实的白板截图比抽象插画更有用。"
+      "Yellow is the mark and the color blocks. The primary button is a black pill.",
+      "Rose, teal, and coral live on the notes, at a medium saturation.",
+      "White ground makes those colors look stuck on.",
+      "A real board screenshot is more useful than an abstract illustration."
     ],
     colors: [
-      ["白", "#FFFFFF"],
-      ["金丝雀", "#FFD02F"],
-      ["墨", "#1C1C1E"],
-      ["浅黄", "#FFF4C4"],
-      ["珊瑚", "#FF9999"],
-      ["青", "#0FBCB0"]
+      ["White", "#FFFFFF"],
+      ["Canary", "#FFD02F"],
+      ["Ink", "#1C1C1E"],
+      ["Pale yellow", "#FFF4C4"],
+      ["Coral", "#FF9999"],
+      ["Teal", "#0FBCB0"]
     ]
   },
   {
     id: "sentry",
     name: "Sentry",
-    title: "夜紫",
-    cat: "工具",
+    title: "Night violet",
+    cat: "Tools",
     url: "https://sentry.io",
     kind: "blocks",
-    face: "Sentry 显示字 / Rubik",
+    face: "Sentry display / Rubik",
     css: '"Space Grotesk", "Avenir Next", sans-serif',
     weight: 600,
     track: "-0.03em",
@@ -1080,27 +1080,27 @@ window.SYSTEMS = [
     headline: "It broke. Here.",
     note: "Midnight violet, a lime sticker, a pink one.",
     cta: "Get started",
-    use: "开发工具可以有吉祥物，但格子仍然要能读日志。",
+    use: "A developer tool can have a mascot, and the grid still has to be readable as a log.",
     principles: [
-      "夜是偏紫的黑，不是中性黑。线也是紫灰。",
-      "酸橙是主行动。粉色是第二贴纸，不要两个一起做按钮。",
-      "插画像贴纸，浮在表面上，不替代界面结构。",
-      "定价和长表格可以翻回白底，用同一套紫和酸橙。"
+      "The night is a violet black, not a neutral black. Lines are violet-gray too.",
+      "Lime is the primary action. Pink is the second sticker. Do not make both into buttons.",
+      "Illustration behaves like a sticker on the surface. It does not replace the interface structure.",
+      "Pricing and long tables can flip to white, using the same violet and lime."
     ],
     colors: [
-      ["夜", "#150F23"],
-      ["表面", "#1F1633"],
-      ["字", "#FFFFFF"],
-      ["酸橙", "#C2EF4E"],
-      ["粉", "#FA7FAA"],
-      ["线", "#362D59"]
+      ["Night", "#150F23"],
+      ["Surface", "#1F1633"],
+      ["Text", "#FFFFFF"],
+      ["Lime", "#C2EF4E"],
+      ["Pink", "#FA7FAA"],
+      ["Line", "#362D59"]
     ]
   },
   {
     id: "lovable",
     name: "Lovable",
-    title: "羊皮纸",
-    cat: "编辑",
+    title: "Parchment",
+    cat: "Editorial",
     url: "https://lovable.dev",
     kind: "paper",
     face: "Camera Plain",
@@ -1122,27 +1122,27 @@ window.SYSTEMS = [
     headline: "Make the page first.",
     note: "One charcoal, many opacities. Borders, not shadows.",
     cta: "Start",
-    use: "想要暖，但不要再加一个陶土色强调。",
+    use: "Warmth without adding a clay accent.",
     principles: [
-      "所有灰色都从同一支炭黑以不同透明度派生，不要另配一套灰。",
-      "卡片靠 #ECEAE4 的线收边，不靠投影。",
-      "主按钮就是这个炭黑。没有第二种品牌色。",
-      "纯白不要当页面底。羊皮纸是这套系统的签名。"
+      "Every gray is the same charcoal at a different opacity. Do not invent a second gray ramp.",
+      "Cards are held by a #ECEAE4 line, not a shadow.",
+      "The primary button is that charcoal. There is no second brand color.",
+      "Pure white is not the page ground. Parchment is the signature."
     ],
     colors: [
-      ["羊皮", "#F7F4ED"],
-      ["炭", "#1C1C1C"],
-      ["字亮", "#FCFBF8"],
-      ["次字", "#5F5F5D"],
-      ["线", "#ECEAE4"],
-      ["炭 40%", "rgba(28,28,28,.4)"]
+      ["Parchment", "#F7F4ED"],
+      ["Charcoal", "#1C1C1C"],
+      ["Bright text", "#FCFBF8"],
+      ["Muted", "#5F5F5D"],
+      ["Line", "#ECEAE4"],
+      ["Charcoal 40%", "rgba(28,28,28,.4)"]
     ]
   },
   {
     id: "shopify",
     name: "Shopify",
-    title: "商家夜",
-    cat: "零售",
+    title: "Merchant night",
+    cat: "Retail",
     url: "https://www.shopify.com",
     kind: "poster",
     face: "Neue Haas Grotesk",
@@ -1164,30 +1164,30 @@ window.SYSTEMS = [
     headline: "The shop is the story.",
     note: "Night for the film. Cream and aloe for the till.",
     cta: "Start",
-    use: "品牌页要电影感，结账页要回到亮的纸面。",
+    use: "The brand page wants cinema. The checkout returns to bright paper.",
     principles: [
-      "营销页用近黑和细字重的大标题，按钮是白边或白底黑字的胶囊。",
-      "交易和价格页翻到奶油底，绿色变成芦荟和开心果，不再是霓虹。",
-      "两套页面共用字和按钮形状，只换画布的明暗。",
-      "照片里的人比图标重要。"
+      "Marketing pages use near-black and thin, large headlines. Buttons are white-stroked or white pills with black type.",
+      "Transaction and price pages flip to cream. Green becomes aloe and pistachio, not neon.",
+      "Both pages share type and button shape. Only the canvas polarity changes.",
+      "The person in the photograph matters more than an icon."
     ],
     colors: [
-      ["夜", "#000000"],
-      ["奶油", "#FBFBF5"],
-      ["芦荟", "#C1FBD4"],
-      ["白", "#FFFFFF"],
-      ["墨", "#1E2C31"],
-      ["线", "#E4E4E7"]
+      ["Night", "#000000"],
+      ["Cream", "#FBFBF5"],
+      ["Aloe", "#C1FBD4"],
+      ["White", "#FFFFFF"],
+      ["Ink", "#1E2C31"],
+      ["Line", "#E4E4E7"]
     ]
   },
   {
     id: "a24",
     name: "A24",
-    title: "影院",
-    cat: "媒体",
+    title: "Cinema",
+    cat: "Media",
     url: "https://a24films.com",
     kind: "poster",
-    face: "人文无衬线",
+    face: "Humanist sans",
     css: '"Space Grotesk", "Helvetica Neue", sans-serif',
     weight: 600,
     track: "-0.04em",
@@ -1206,30 +1206,30 @@ window.SYSTEMS = [
     headline: "Now showing",
     note: "No chrome. A left stack of titles over the still.",
     cta: "Tickets",
-    use: "放映、出版、展览。画面已经够满，界面应当退出。",
+    use: "Screenings, publishing, exhibitions. The picture is already full. The interface should leave.",
     principles: [
-      "去掉导航装饰。页首是一幅画面，上面左对齐叠一列标题。",
-      "年份或场次用很小的上标，不要做成徽章。",
-      "没有圆角，没有卡片阴影，没有第二品牌色。",
-      "颜色来自那幅画面。界面只提供暖白的字。"
+      "Drop decorative navigation. The hero is one picture with a left-aligned stack of titles.",
+      "A year or a screening time is a tiny superscript, not a badge.",
+      "No radius, no card shadow, no second brand color.",
+      "Color comes from the picture. The interface only supplies warm-white type."
     ],
     colors: [
-      ["夜", "#0E0E0E"],
-      ["暖白", "#F4F1EA"],
-      ["次字", "#A39E96"],
-      ["亚麻", "#D8CBB8"],
-      ["暗红", "#8C3A2F"],
-      ["线", "rgba(244,241,234,.24)"]
+      ["Night", "#0E0E0E"],
+      ["Warm white", "#F4F1EA"],
+      ["Muted", "#A39E96"],
+      ["Linen", "#D8CBB8"],
+      ["Dark red", "#8C3A2F"],
+      ["Line", "rgba(244,241,234,.24)"]
     ]
   },
   {
     id: "teenage",
     name: "Teenage Engineering",
-    title: "说明书",
-    cat: "零售",
+    title: "Manual",
+    cat: "Retail",
     url: "https://teenage.engineering",
     kind: "grid",
-    face: "等宽",
+    face: "Monospace",
     css: '"IBM Plex Mono", ui-monospace, monospace',
     weight: 400,
     track: "0em",
@@ -1248,20 +1248,20 @@ window.SYSTEMS = [
     headline: "OP–1 field",
     note: "A grid, a caption, a price. The object is the color.",
     cta: "Buy",
-    use: "硬件、目录、工具站。想让说明文字像说明书。",
+    use: "Hardware, catalogs, and tool shops. Captions should read like a manual.",
     principles: [
-      "白底、黑字、等宽。价格就是价格，不加色块促销。",
-      "产品放在严格的格子里，格子本身不加装饰。",
-      "圆角和阴影都是 0。橙色如果出现，它属于产品，不属于按钮。",
-      "标签短，像丝印：型号、价格、库存。"
+      "White ground, black type, monospace. A price is a price, not a colored promotion.",
+      "Products sit in a strict grid. The grid itself is undecorated.",
+      "Radius and shadow are both 0. If orange appears, it belongs to the product, not the button.",
+      "Labels are short, like screen printing: model, price, stock."
     ],
     colors: [
-      ["白", "#FFFFFF"],
-      ["黑", "#111111"],
-      ["次字", "#6A6A6A"],
-      ["格", "#F2F2F2"],
-      ["产品橙", "#FF5A1F"],
-      ["线", "#111111"]
+      ["White", "#FFFFFF"],
+      ["Black", "#111111"],
+      ["Muted", "#6A6A6A"],
+      ["Cell", "#F2F2F2"],
+      ["Product orange", "#FF5A1F"],
+      ["Line", "#111111"]
     ]
   }
 ];

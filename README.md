@@ -1,4 +1,4 @@
-# 设计图书馆
+# Design library
 
 Thirty reusable design systems, each studied from a public website.
 

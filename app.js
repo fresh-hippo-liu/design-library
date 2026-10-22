@@ -1,5 +1,4 @@
 const CATS = ["All", "Product", "Finance", "Retail", "Editorial", "Media", "Tools"];
-const SANS = '"Inter", "Helvetica Neue", sans-serif';
 
 const state = {
   cat: "All",
@@ -95,17 +94,17 @@ function gallery() {
     return `<p class="empty">Nothing matches. Try another site, or another feeling.</p>`;
   }
   return `
+    <p class="collection-note">30 website style studies. Each detail separates observed values, unverified samples, and library adaptations. Preview fonts are substitutes; these are not official brand systems.</p>
     <div class="grid">
       ${items.map(card).join("")}
     </div>
-    ${items.length === SYSTEMS.length ? `<p class="note">These 30 systems were studied from public pages, not official kits. Type on the cards is a close open-source stand-in. The original name is in the detail.</p>` : ""}
   `;
 }
 
 function match(system) {
   if (state.cat !== "All" && system.cat !== state.cat) return false;
   if (!state.q) return true;
-  const hay = [system.name, system.title, system.cat, system.use, system.face, ...system.principles]
+  const hay = [system.name, system.title, system.cat, system.use, system.face, system.bodyFace, system.study.scope, ...system.principles]
     .join(" ")
     .toLowerCase();
   return hay.includes(state.q);
@@ -122,6 +121,7 @@ function card(system) {
         <div>
           <h2>${esc(system.name)}</h2>
           <p>${esc(system.title)}</p>
+          <span class="study-status">${system.study.status === "unverified" ? "Unverified study" : "Partially checked study"}</span>
         </div>
         <button type="button" class="more" data-open="${system.id}">Details</button>
       </div>
@@ -170,10 +170,12 @@ function chip(system) {
 }
 
 function detail(system) {
+  const study = system.study;
   return `
     <article class="sheet">
       <button type="button" class="back" data-close>Back</button>
       <section class="specimen" data-kind="${system.kind}" data-paint="${system.id}">
+        <p class="specimen-label">Library example · Preview font substitutes</p>
         <div class="sp-top">
           <strong>${esc(system.name)}</strong>
           <span>${esc(system.title)}</span>
@@ -194,34 +196,50 @@ function detail(system) {
       <div class="meta">
         <p class="lead">${esc(system.use)}</p>
         <p class="who"><a href="${esc(system.url)}" target="_blank" rel="noopener">${esc(system.url.replace(/^https?:\/\//, ""))}</a><span>${esc(system.cat)}</span></p>
-        <h2>Principles</h2>
+        <div class="study-note">
+          <span class="evidence" data-status="${study.status}">${study.status === "unverified" ? "Unverified" : "Partially checked"}</span>
+          <p><strong>${esc(study.scope)}</strong> · Checked ${esc(study.checkedAt)}</p>
+          <p>${esc(study.notes)}</p>
+          <p>This is a library study, not an official brand specification.</p>
+          <ul class="sources">${study.sources.map((url) => `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(url.replace(/^https?:\/\//, ""))}</a></li>`).join("")}</ul>
+        </div>
+        <h2>Study guidelines</h2>
+        <p class="section-note">Author recommendations for this example, not official brand rules.</p>
         <ul class="principles">
           ${system.principles.map((item) => `<li>${esc(item)}</li>`).join("")}
         </ul>
-        <h2>Colors</h2>
+        <h2>Sample colors and evidence</h2>
+        <p class="section-note">Observed: source role confirmed. Value found: source contains the color, role unconfirmed. Adapted: library choice. Unverified: no current source confirmation.</p>
         <div class="swatches">
-          ${system.colors.map(([name, hex]) => `
-            <button type="button" class="swatch" data-hex="${esc(hex)}">
-              <i style="background:${esc(hex)}"></i>
-              <span><b>${esc(name)}</b><small>${esc(hex)}</small></span>
+          ${Theme.palette(system).map(({ name, value, status, reference }) => `
+            <button type="button" class="swatch" data-hex="${esc(value)}" title="${esc(reference)}">
+              <i style="background:${esc(value)}" aria-hidden="true"></i>
+              <span><b>${esc(name)}</b><small>${esc(value)}</small><em class="evidence" data-status="${status}">${Theme.labels[status]}</em></span>
             </button>
           `).join("")}
         </div>
-        <h2>Type and shape</h2>
+        <h2>Website type and preview substitutes</h2>
+        <p class="section-note">${esc(study.fontNote)}</p>
         <dl class="facts">
-          <div><dt>Typeface</dt><dd>${esc(system.face)}</dd></div>
-          <div><dt>Weight</dt><dd>${esc(String(system.weight))}</dd></div>
-          <div><dt>Tracking</dt><dd>${esc(system.track)}</dd></div>
-          <div><dt>Controls</dt><dd>${esc(system.r)}</dd></div>
-          <div><dt>Cards</dt><dd>${esc(system.rc)}</dd></div>
-          <div><dt>Shadow</dt><dd>${esc(system.shadow)}</dd></div>
+          <div><dt>Website display</dt><dd>${esc(system.face)}</dd></div>
+          <div><dt>Website body</dt><dd>${esc(system.bodyFace)}</dd></div>
+          <div><dt>Display preview</dt><dd>${esc(system.css)}</dd></div>
+          <div><dt>Body preview</dt><dd>${esc(system.bodyCss)}</dd></div>
+          <div><dt>Control preview</dt><dd>${esc(system.controlCss)}</dd></div>
+          <div><dt>Sample weight</dt><dd>${esc(String(system.weight))}</dd></div>
+          <div><dt>Sample tracking</dt><dd>${esc(system.track)}</dd></div>
+          <div><dt>Font features</dt><dd>${esc(system.features)}</dd></div>
+          <div><dt>Control radius</dt><dd>${esc(system.r)}</dd></div>
+          <div><dt>Card radius</dt><dd>${esc(system.rc)}</dd></div>
+          <div><dt>Sample shadow</dt><dd>${esc(system.shadow)}</dd></div>
         </dl>
+        <p class="section-note">${esc(study.shapeNote)}</p>
         <div class="codehead">
           <h2>Variables</h2>
-          <button type="button" class="copy" data-copy-css="${esc(system.id)}">Copy CSS variables</button>
+          <button type="button" class="copy" data-copy-css="${esc(system.id)}">Copy theme CSS</button>
         </div>
         <pre class="css">${esc(cssBlock(system))}</pre>
-        <p class="fine">Click a color to copy it. Studied from public pages in October 2026. Use it with your own content.</p>
+        <p class="fine">Color swatches, preview, and exported variables share the same tokens. The export includes font imports, sample typography, and evidence comments. It defines variables for your own components; it does not include the specimen layout.</p>
       </div>
     </article>
   `;
@@ -232,47 +250,11 @@ function paintAll(system) {
 }
 
 function paint(node, system) {
-  const body = system.id === "teenage" ? system.css : SANS;
-  const display = system.css;
-  const pairs = {
-    "--bg": system.bg,
-    "--surface": system.surface,
-    "--ink": system.ink,
-    "--muted": system.muted,
-    "--accent": system.accent,
-    "--on": system.on,
-    "--line": system.line,
-    "--c2": system.c2,
-    "--c3": system.c3,
-    "--r": system.r,
-    "--rc": system.rc,
-    "--sh": system.shadow,
-    "--display": display,
-    "--body": body,
-    "--dw": String(system.weight),
-    "--track": system.track,
-    "--case": system.caps ? "uppercase" : "none"
-  };
-  for (const [key, value] of Object.entries(pairs)) node.style.setProperty(key, value);
+  for (const [key, value] of Object.entries(Theme.tokens(system))) node.style.setProperty(key, value);
 }
 
 function cssBlock(system) {
-  return `:root {
-  --bg: ${system.bg};
-  --surface: ${system.surface};
-  --text: ${system.ink};
-  --muted: ${system.muted};
-  --accent: ${system.accent};
-  --accent-text: ${system.on};
-  --line: ${system.line};
-  --spot: ${system.c2};
-  --spot-2: ${system.c3};
-  --font-display: ${system.css};
-  --font-body: ${system.id === "teenage" ? system.css : SANS};
-  --radius: ${system.r};
-  --radius-card: ${system.rc};
-  --shadow: ${system.shadow};
-}`;
+  return Theme.css(system);
 }
 
 function esc(value) {

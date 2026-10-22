@@ -1,0 +1,1868 @@
+{
+  "checkedAt": "2026-10-22",
+  "scope": "Corrections to the original audit; uncertain fields remain labeled.",
+  "systems": [
+    {
+      "id": "linear",
+      "changes": [
+        {
+          "field": "surface",
+          "before": "#1C1E22",
+          "after": "#1C1C1F",
+          "reason": "--color-bg-secondary"
+        },
+        {
+          "field": "face",
+          "before": "Linear Sans / Inter",
+          "after": "Inter Variable",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The site defines distinct marketing, secondary, and panel surfaces. This study uses its secondary surface for the sample card.",
+      "remainingUnverified": [
+        "on"
+      ]
+    },
+    {
+      "id": "stripe",
+      "changes": [
+        {
+          "field": "muted",
+          "before": "#425466",
+          "after": "#50617A",
+          "reason": "--hds-color-text-soft → --hds-color-core-neutral-600"
+        },
+        {
+          "field": "face",
+          "before": "Söhne",
+          "after": "Söhne (sohne-var)",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "HDS defines semantic color roles. The sample typography, radius, and shadow are approximations, not global Stripe rules.",
+      "remainingUnverified": []
+    },
+    {
+      "id": "vercel",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Geist",
+          "after": "Geist / GeistSans",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "This is a marketing-inspired example, not the full Geist system. Official buttons include rounded and shadow variants.",
+      "remainingUnverified": []
+    },
+    {
+      "id": "apple",
+      "changes": [
+        {
+          "field": "face",
+          "before": "SF Pro",
+          "after": "SF Pro Display",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source contains these colors and SF Pro families. The sample does not represent every Apple page or Human Interface Guideline.",
+      "remainingUnverified": []
+    },
+    {
+      "id": "airbnb",
+      "changes": [
+        {
+          "field": "action",
+          "before": "#FF385C",
+          "after": "#222222",
+          "reason": "Charcoal sample action chosen for readable small labels; not a sampled website CTA."
+        },
+        {
+          "field": "face",
+          "before": "Airbnb Cereal",
+          "after": "Unverified",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source request returned a script redirect, not usable page CSS. Colors, Cereal attribution, and shapes remain unverified.",
+      "remainingUnverified": [
+        "bg",
+        "surface",
+        "ink",
+        "muted",
+        "accent",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "aesop",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Suisse Intl + humanist serif",
+          "after": "Unverified",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The site blocked CSS retrieval. Suisse Intl / humanist serif was the earlier attribution, not a confirmed current font. Newsreader and Inter are preview choices.",
+      "remainingUnverified": [
+        "bg",
+        "surface",
+        "ink",
+        "muted",
+        "accent",
+        "on",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "arc",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Marlin",
+          "after": "Marlin family",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Brand blue and off-white are directly named tokens. The supporting palette, exact font roles, and shapes need element-level evidence.",
+      "remainingUnverified": [
+        "ink",
+        "muted",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "claude",
+      "changes": [
+        {
+          "field": "surface",
+          "before": "#F5F0E8",
+          "after": "#F5F4ED",
+          "reason": "--theme-background-tertiary → --color-gray-100"
+        },
+        {
+          "field": "ink",
+          "before": "#181715",
+          "after": "#141413",
+          "reason": "--theme-foreground-primary → --color-gray-950"
+        },
+        {
+          "field": "muted",
+          "before": "#6B6560",
+          "after": "#30302E",
+          "reason": "--theme-foreground-secondary → --color-gray-750"
+        },
+        {
+          "field": "accent",
+          "before": "#CC785C",
+          "after": "#D97757",
+          "reason": "--theme-accent-clay-primary → --color-clay"
+        },
+        {
+          "field": "action",
+          "before": "#CC785C",
+          "after": "#141413",
+          "reason": "light theme --theme-button-primary-bg → --color-gray-950"
+        },
+        {
+          "field": "on",
+          "before": "#FFFFFF",
+          "after": "#FAF9F5",
+          "reason": "light theme --theme-button-primary-fg → --color-gray-050"
+        },
+        {
+          "field": "line",
+          "before": "#E8E0D2",
+          "after": "#DEDCD1",
+          "reason": "--theme-border-secondary → --color-gray-250"
+        },
+        {
+          "field": "c2",
+          "before": "#5DB8A6",
+          "after": "#BCD1CA",
+          "reason": "--theme-brand-cactus → --color-cactus"
+        },
+        {
+          "field": "c3",
+          "before": "#E8A55A",
+          "after": "#EBC9B7",
+          "reason": "--theme-brand-peach → --color-peach"
+        },
+        {
+          "field": "face",
+          "before": "Copernicus / Tiempos",
+          "after": "anthropicSerif",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The current CSS declares anthropic font families and distinct primary/clay actions. This study uses the observed gray and clay tokens; it does not prescribe a universal motion duration.",
+      "remainingUnverified": []
+    },
+    {
+      "id": "notion",
+      "changes": [
+        {
+          "field": "accent",
+          "before": "#5645D4",
+          "after": "#0075DE",
+          "reason": "Get Notion free, computed background on homepage"
+        },
+        {
+          "field": "action",
+          "before": "#5645D4",
+          "after": "#0075DE",
+          "reason": "Get Notion free, computed background on homepage"
+        },
+        {
+          "field": "face",
+          "before": "Notion Sans",
+          "after": "NotionInter",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The browser measured the homepage primary action as #0075DE with white text and an 8px radius. Earlier purple-only guidance was incorrect for this page.",
+      "remainingUnverified": [
+        "bg",
+        "ink",
+        "muted",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "figma",
+      "changes": [
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "figmaSans is declared in the source. These exact pastel values and the preview weight are unverified study choices.",
+      "remainingUnverified": [
+        "surface",
+        "muted",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "framer",
+      "changes": [
+        {
+          "field": "face",
+          "before": "GT Walsheim",
+          "after": "GT Walsheim Medium",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The browser measured GT Walsheim Medium at 500 on the main heading. Exact sample accents, body font, and button radius remain unverified.",
+      "remainingUnverified": [
+        "bg",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "raycast",
+      "changes": [
+        {
+          "field": "muted",
+          "before": "#A0A0A0",
+          "after": "#C2C7CA",
+          "reason": "--color-fg-200"
+        },
+        {
+          "field": "on",
+          "before": "#000000",
+          "after": "#18191A",
+          "reason": "--color-button-fg"
+        },
+        {
+          "field": "face",
+          "before": "Inter ss03",
+          "after": "Inter",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "\"liga\" 1, \"calt\" 1, \"kern\" 1, \"ss03\" 1",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source names canvas, panel, border, and secondary foreground tokens. The sample action uses opaque white as an adaptation of the site’s translucent white button token.",
+      "remainingUnverified": [
+        "c3"
+      ]
+    },
+    {
+      "id": "spotify",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Circular",
+          "after": "Spotify Mix",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Spotify announced Spotify Mix in May 2024. This study is scoped to the web player, not the spotify.com marketing homepage; the exact palette remains unverified in this audit.",
+      "remainingUnverified": [
+        "bg",
+        "surface",
+        "ink",
+        "muted",
+        "accent",
+        "on",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "nike",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Futura",
+          "after": "Nike Futura / Nike Futura ND",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source declares Nike Futura and Helvetica Now Text. This dark campaign interpretation is not a token specification for all Nike retail pages.",
+      "remainingUnverified": [
+        "surface",
+        "muted",
+        "line"
+      ]
+    },
+    {
+      "id": "wise",
+      "changes": [
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The site defines these green and content tokens and includes bright-green backgrounds. Sample line and card shapes still need direct evidence.",
+      "remainingUnverified": [
+        "line"
+      ]
+    },
+    {
+      "id": "posthog",
+      "changes": [
+        {
+          "field": "face",
+          "before": "IBM Plex Sans",
+          "after": "IBM Plex Sans Variable",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The palette includes source values, but tan is not proven to be every page’s canvas. Border color and sample geometry remain unverified.",
+      "remainingUnverified": [
+        "line",
+        "c3"
+      ]
+    },
+    {
+      "id": "resend",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Domaine Display + ABC Favorit",
+          "after": "Domaine (headline)",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The homepage h1 uses font-domaine; the CSS also declares Inter, ABC Favorit, and Commit Mono. Fraunces and Inter are the loaded preview fonts.",
+      "remainingUnverified": [
+        "surface",
+        "ink",
+        "accent",
+        "line"
+      ]
+    },
+    {
+      "id": "slack",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Slack sans",
+          "after": "Salesforce Avant Garde",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "css",
+          "before": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+          "after": "\"Outfit\", \"Avenir Next\", sans-serif",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Current marketing CSS declares Salesforce Avant Garde and Salesforce Sans. Aubergine and yellow are retained as unverified current-role samples, not certified homepage action colors.",
+      "remainingUnverified": [
+        "muted",
+        "accent",
+        "on",
+        "line",
+        "c2"
+      ]
+    },
+    {
+      "id": "cursor",
+      "changes": [
+        {
+          "field": "action",
+          "before": "#F54E00",
+          "after": "#26251E",
+          "reason": "Download for macOS, computed background on homepage"
+        },
+        {
+          "field": "on",
+          "before": "#FFFFFF",
+          "after": "#F7F7F4",
+          "reason": "Download for macOS, computed color on homepage"
+        },
+        {
+          "field": "r",
+          "before": "8px",
+          "after": "999px",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "face",
+          "before": "Cursor Gothic",
+          "after": "CursorGothic",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The browser measured Download for macOS with #26251E background, #F7F7F4 text, a pill shape, and CursorGothic. Other sample card values are not certified.",
+      "remainingUnverified": [
+        "muted"
+      ]
+    },
+    {
+      "id": "pinterest",
+      "changes": [
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source declares Pin Sans and contains the red and warm-neutral values. Existence alone does not certify every role; this is not the full Gestalt system.",
+      "remainingUnverified": [
+        "muted",
+        "c3"
+      ]
+    },
+    {
+      "id": "theverge",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Manuka + PolySans",
+          "after": "Manuka Condensed Black",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The current site offers Light, System, and Dark. Manuka and PolySans resources are present; this library does not claim to supply the site’s light theme.",
+      "remainingUnverified": [
+        "surface",
+        "muted",
+        "c3"
+      ]
+    },
+    {
+      "id": "spacex",
+      "changes": [
+        {
+          "field": "face",
+          "before": "D-DIN",
+          "after": "D-DIN / D-DIN-PRO",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "D-DIN and Roboto Mono are declared by the source. Sample muted text, borders, and page-wide layout restrictions are not verified official rules.",
+      "remainingUnverified": [
+        "muted",
+        "line"
+      ]
+    },
+    {
+      "id": "zapier",
+      "changes": [
+        {
+          "field": "action",
+          "before": "#FF4F00",
+          "after": "#201515",
+          "reason": "Charcoal sample action chosen for readable small labels; not a sampled website CTA."
+        },
+        {
+          "field": "face",
+          "before": "Zapier sans",
+          "after": "DegularDisplay",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source declares DegularDisplay, Inter, and Serrif. The charcoal action is a library adaptation for readable small labels, not a sampled current CTA.",
+      "remainingUnverified": [
+        "line",
+        "c3"
+      ]
+    },
+    {
+      "id": "mistral",
+      "changes": [
+        {
+          "field": "action",
+          "before": "#FA520F",
+          "after": "#1F1F1F",
+          "reason": "Charcoal sample action chosen for readable small labels; not a sampled website CTA."
+        },
+        {
+          "field": "face",
+          "before": "Near-serif display",
+          "after": "Unverified",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The official brand page confirms pixel artwork and logo variants. Page CSS timed out, so exact UI colors, type, and radii remain unverified. The neutral action is a readability adaptation.",
+      "remainingUnverified": [
+        "bg",
+        "surface",
+        "ink",
+        "muted",
+        "accent",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "miro",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Roobert",
+          "after": "Roobert PRO family",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source declares Roobert PRO and #1C1C1E primary/black. #FFD02F appears in a border utility; its brand role and the remaining pastels are not certified.",
+      "remainingUnverified": [
+        "surface",
+        "muted",
+        "line",
+        "c3"
+      ]
+    },
+    {
+      "id": "sentry",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Sentry display / Rubik",
+          "after": "Dammit Sans",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The source declares Dammit Sans and Rubik. Violet, pink, and lime values exist, but lime as the site-wide primary action has not been confirmed.",
+      "remainingUnverified": [
+        "muted"
+      ]
+    },
+    {
+      "id": "lovable",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Camera Plain",
+          "after": "Unverified",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Both source fetching and browser access were blocked by verification. Camera Plain was an earlier attribution, not a confirmed current font; all visual values remain unverified.",
+      "remainingUnverified": [
+        "bg",
+        "surface",
+        "ink",
+        "muted",
+        "accent",
+        "on",
+        "line",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "shopify",
+      "changes": [
+        {
+          "field": "face",
+          "before": "Neue Haas Grotesk",
+          "after": "Shopify-Inter",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "css",
+          "before": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "after": "\"Inter\", \"Helvetica Neue\", sans-serif",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Current marketing CSS declares Shopify-Inter. This sample does not represent storefront themes, checkout, or the merchant admin design system.",
+      "remainingUnverified": [
+        "surface",
+        "muted",
+        "line",
+        "c3"
+      ]
+    },
+    {
+      "id": "a24",
+      "changes": [
+        {
+          "field": "bg",
+          "before": "#0E0E0E",
+          "after": "#0E0E0D",
+          "reason": "dark --theme-background-default → --color-warm-neutral-1000"
+        },
+        {
+          "field": "surface",
+          "before": "#0E0E0E",
+          "after": "#141313",
+          "reason": "dark --theme-background-subtle → --color-warm-neutral-975"
+        },
+        {
+          "field": "ink",
+          "before": "#F4F1EA",
+          "after": "#FFFFFF",
+          "reason": "dark --theme-text-default → --color-white"
+        },
+        {
+          "field": "muted",
+          "before": "#A39E96",
+          "after": "#B2ADA6",
+          "reason": "dark --theme-text-subtle → --color-warm-neutral-400"
+        },
+        {
+          "field": "accent",
+          "before": "#F4F1EA",
+          "after": "#FFFFFF",
+          "reason": "Exact value present in retrieved source; this role is not certified."
+        },
+        {
+          "field": "action",
+          "before": "#F4F1EA",
+          "after": "#FFFFFF",
+          "reason": "Library sample action; not a sampled website CTA."
+        },
+        {
+          "field": "on",
+          "before": "#0E0E0E",
+          "after": "#0E0E0D",
+          "reason": "Exact value present in retrieved source; this role is not certified."
+        },
+        {
+          "field": "line",
+          "before": "rgba(244,241,234,.24)",
+          "after": "#31302E",
+          "reason": "dark --theme-border-default → --color-warm-neutral-950"
+        },
+        {
+          "field": "c2",
+          "before": "#8C3A2F",
+          "after": "#F2F0ED",
+          "reason": "--color-warm-neutral-50"
+        },
+        {
+          "field": "c3",
+          "before": "#D8CBB8",
+          "after": "#FCFBFA",
+          "reason": "--color-warm-neutral-25"
+        },
+        {
+          "field": "face",
+          "before": "Humanist sans",
+          "after": "Neue Montreal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "weight",
+          "before": 600,
+          "after": 485,
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "The browser measured Neue Montreal on h1 at weight 485. Dark theme tokens are taken from the current CSS; the complete homepage composition and action styling are not reproduced.",
+      "remainingUnverified": []
+    },
+    {
+      "id": "teenage",
+      "changes": [
+        {
+          "field": "bg",
+          "before": "#FFFFFF",
+          "after": "#F5F5F5",
+          "reason": "--te-white, selected as study canvas"
+        },
+        {
+          "field": "surface",
+          "before": "#FFFFFF",
+          "after": "#F5F5F5",
+          "reason": "--te-white, selected as study card"
+        },
+        {
+          "field": "ink",
+          "before": "#111111",
+          "after": "#0F0E12",
+          "reason": "--te-black"
+        },
+        {
+          "field": "accent",
+          "before": "#111111",
+          "after": "#0F0E12",
+          "reason": "--te-black"
+        },
+        {
+          "field": "action",
+          "before": "#111111",
+          "after": "#0F0E12",
+          "reason": "Library sample action; not a sampled website CTA."
+        },
+        {
+          "field": "on",
+          "before": "#FFFFFF",
+          "after": "#F5F5F5",
+          "reason": "--button-text → --te-white"
+        },
+        {
+          "field": "line",
+          "before": "#111111",
+          "after": "#0F0E12",
+          "reason": "Study approximation; no current source role verified."
+        },
+        {
+          "field": "c2",
+          "before": "#F2F2F2",
+          "after": "#E5E5E5",
+          "reason": "--te-grey-100"
+        },
+        {
+          "field": "c3",
+          "before": "#FF5A1F",
+          "after": "#F05A24",
+          "reason": "--te-orange"
+        },
+        {
+          "field": "face",
+          "before": "Monospace",
+          "after": "te-20 / te-40",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "css",
+          "before": "\"IBM Plex Mono\", ui-monospace, monospace",
+          "after": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        },
+        {
+          "field": "features",
+          "before": null,
+          "after": "normal",
+          "reason": "Corrected website attribution or explicit preview setting; see study notes."
+        }
+      ],
+      "resolution": "Current source font stacks use te-20 / te-40 with Unicode and sans-serif fallbacks, not a universal monospace. Control and card shapes remain sample settings.",
+      "remainingUnverified": [
+        "muted",
+        "line"
+      ]
+    }
+  ],
+  "verification": {
+    "contrastPairCount": 150,
+    "failedContrastPairs": [],
+    "contrastPairs": [
+      {
+        "id": "linear",
+        "pair": "on/action",
+        "ratio": 4.699901,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "linear",
+        "pair": "ink/bg",
+        "ratio": 19.609618,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "linear",
+        "pair": "ink/surface",
+        "ratio": 15.978185,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "linear",
+        "pair": "muted/bg",
+        "ratio": 6.421244,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "linear",
+        "pair": "muted/surface",
+        "ratio": 5.232117,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "stripe",
+        "pair": "on/action",
+        "ratio": 6.192147,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "stripe",
+        "pair": "ink/bg",
+        "ratio": 17.371638,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "stripe",
+        "pair": "ink/surface",
+        "ratio": 16.440596,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "stripe",
+        "pair": "muted/bg",
+        "ratio": 6.30252,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "stripe",
+        "pair": "muted/surface",
+        "ratio": 5.964733,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "vercel",
+        "pair": "on/action",
+        "ratio": 17.92784,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "vercel",
+        "pair": "ink/bg",
+        "ratio": 17.176123,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "vercel",
+        "pair": "ink/surface",
+        "ratio": 17.92784,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "vercel",
+        "pair": "muted/bg",
+        "ratio": 8.09874,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "vercel",
+        "pair": "muted/surface",
+        "ratio": 8.453183,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "apple",
+        "pair": "on/action",
+        "ratio": 4.696661,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "apple",
+        "pair": "ink/bg",
+        "ratio": 15.456758,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "apple",
+        "pair": "ink/surface",
+        "ratio": 16.829972,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "apple",
+        "pair": "muted/bg",
+        "ratio": 4.657535,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "apple",
+        "pair": "muted/surface",
+        "ratio": 5.071322,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "airbnb",
+        "pair": "on/action",
+        "ratio": 15.909984,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "airbnb",
+        "pair": "ink/bg",
+        "ratio": 15.909984,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "airbnb",
+        "pair": "ink/surface",
+        "ratio": 14.850999,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "airbnb",
+        "pair": "muted/bg",
+        "ratio": 5.408789,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "airbnb",
+        "pair": "muted/surface",
+        "ratio": 5.048774,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "aesop",
+        "pair": "on/action",
+        "ratio": 12.460708,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "aesop",
+        "pair": "ink/bg",
+        "ratio": 12.460708,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "aesop",
+        "pair": "ink/surface",
+        "ratio": 12.460708,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "aesop",
+        "pair": "muted/bg",
+        "ratio": 5.309147,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "aesop",
+        "pair": "muted/surface",
+        "ratio": 5.309147,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "arc",
+        "pair": "on/action",
+        "ratio": 6.754906,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "arc",
+        "pair": "ink/bg",
+        "ratio": 17.885113,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "arc",
+        "pair": "ink/surface",
+        "ratio": 18.422536,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "arc",
+        "pair": "muted/bg",
+        "ratio": 6.923823,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "arc",
+        "pair": "muted/surface",
+        "ratio": 7.131874,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "claude",
+        "pair": "on/action",
+        "ratio": 17.497723,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "claude",
+        "pair": "ink/bg",
+        "ratio": 17.497723,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "claude",
+        "pair": "ink/surface",
+        "ratio": 16.718295,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "claude",
+        "pair": "muted/bg",
+        "ratio": 12.553363,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "claude",
+        "pair": "muted/surface",
+        "ratio": 11.99418,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "notion",
+        "pair": "on/action",
+        "ratio": 4.565911,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "notion",
+        "pair": "ink/bg",
+        "ratio": 17.404328,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "notion",
+        "pair": "ink/surface",
+        "ratio": 15.983687,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "notion",
+        "pair": "muted/bg",
+        "ratio": 6.796372,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "notion",
+        "pair": "muted/surface",
+        "ratio": 6.241613,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "figma",
+        "pair": "on/action",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "figma",
+        "pair": "ink/bg",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "figma",
+        "pair": "ink/surface",
+        "ratio": 19.577652,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "figma",
+        "pair": "muted/bg",
+        "ratio": 8.862392,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "figma",
+        "pair": "muted/surface",
+        "ratio": 8.262135,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "framer",
+        "pair": "on/action",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "framer",
+        "pair": "ink/bg",
+        "ratio": 19.912105,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "framer",
+        "pair": "ink/surface",
+        "ratio": 18.422536,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "framer",
+        "pair": "muted/bg",
+        "ratio": 6.989088,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "framer",
+        "pair": "muted/surface",
+        "ratio": 6.466254,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "raycast",
+        "pair": "on/action",
+        "ratio": 17.605537,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "raycast",
+        "pair": "ink/bg",
+        "ratio": 18.239423,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "raycast",
+        "pair": "ink/surface",
+        "ratio": 16.027458,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "raycast",
+        "pair": "muted/bg",
+        "ratio": 11.750309,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "raycast",
+        "pair": "muted/surface",
+        "ratio": 10.325304,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spotify",
+        "pair": "on/action",
+        "ratio": 10.944285,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spotify",
+        "pair": "ink/bg",
+        "ratio": 18.733664,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spotify",
+        "pair": "ink/surface",
+        "ratio": 17.756265,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spotify",
+        "pair": "muted/bg",
+        "ratio": 8.934812,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spotify",
+        "pair": "muted/surface",
+        "ratio": 8.468652,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "nike",
+        "pair": "on/action",
+        "ratio": 18.883061,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "nike",
+        "pair": "ink/bg",
+        "ratio": 18.883061,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "nike",
+        "pair": "ink/surface",
+        "ratio": 17.404328,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "nike",
+        "pair": "muted/bg",
+        "ratio": 11.286324,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "nike",
+        "pair": "muted/surface",
+        "ratio": 10.402491,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "wise",
+        "pair": "on/action",
+        "ratio": 9.452357,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "wise",
+        "pair": "ink/bg",
+        "ratio": 15.981831,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "wise",
+        "pair": "ink/surface",
+        "ratio": 19.225297,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "wise",
+        "pair": "muted/bg",
+        "ratio": 7.792417,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "wise",
+        "pair": "muted/surface",
+        "ratio": 9.373865,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "posthog",
+        "pair": "on/action",
+        "ratio": 7.635592,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "posthog",
+        "pair": "ink/bg",
+        "ratio": 13.412775,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "posthog",
+        "pair": "ink/surface",
+        "ratio": 15.511505,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "posthog",
+        "pair": "muted/bg",
+        "ratio": 7.198998,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "posthog",
+        "pair": "muted/surface",
+        "ratio": 8.325443,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "resend",
+        "pair": "on/action",
+        "ratio": 20.633201,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "resend",
+        "pair": "ink/bg",
+        "ratio": 20.633201,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "resend",
+        "pair": "ink/surface",
+        "ratio": 18.051851,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "resend",
+        "pair": "muted/bg",
+        "ratio": 8.36892,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "resend",
+        "pair": "muted/surface",
+        "ratio": 7.321912,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "slack",
+        "pair": "on/action",
+        "ratio": 13.99967,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "slack",
+        "pair": "ink/bg",
+        "ratio": 14.514048,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "slack",
+        "pair": "ink/surface",
+        "ratio": 16.857589,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "slack",
+        "pair": "muted/bg",
+        "ratio": 4.726621,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "slack",
+        "pair": "muted/surface",
+        "ratio": 5.489815,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "cursor",
+        "pair": "on/action",
+        "ratio": 14.325401,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "cursor",
+        "pair": "ink/bg",
+        "ratio": 14.325401,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "cursor",
+        "pair": "ink/surface",
+        "ratio": 15.375734,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "cursor",
+        "pair": "muted/bg",
+        "ratio": 6.626835,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "cursor",
+        "pair": "muted/surface",
+        "ratio": 7.112712,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "pinterest",
+        "pair": "on/action",
+        "ratio": 4.784832,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "pinterest",
+        "pair": "ink/bg",
+        "ratio": 14.65812,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "pinterest",
+        "pair": "ink/surface",
+        "ratio": 15.187042,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "pinterest",
+        "pair": "muted/bg",
+        "ratio": 6.495735,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "pinterest",
+        "pair": "muted/surface",
+        "ratio": 6.730127,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "theverge",
+        "pair": "on/action",
+        "ratio": 16.406945,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "theverge",
+        "pair": "ink/bg",
+        "ratio": 18.580095,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "theverge",
+        "pair": "ink/surface",
+        "ratio": 13.772077,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "theverge",
+        "pair": "muted/bg",
+        "ratio": 6.12503,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "theverge",
+        "pair": "muted/surface",
+        "ratio": 4.540041,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spacex",
+        "pair": "on/action",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spacex",
+        "pair": "ink/bg",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spacex",
+        "pair": "ink/surface",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spacex",
+        "pair": "muted/bg",
+        "ratio": 8.892937,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "spacex",
+        "pair": "muted/surface",
+        "ratio": 8.892937,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "zapier",
+        "pair": "on/action",
+        "ratio": 17.804004,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "zapier",
+        "pair": "ink/bg",
+        "ratio": 17.652866,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "zapier",
+        "pair": "ink/surface",
+        "ratio": 16.269315,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "zapier",
+        "pair": "muted/bg",
+        "ratio": 6.537561,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "zapier",
+        "pair": "muted/surface",
+        "ratio": 6.025177,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "mistral",
+        "pair": "on/action",
+        "ratio": 16.482977,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "mistral",
+        "pair": "ink/bg",
+        "ratio": 15.506027,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "mistral",
+        "pair": "ink/surface",
+        "ratio": 16.482977,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "mistral",
+        "pair": "muted/bg",
+        "ratio": 8.337116,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "mistral",
+        "pair": "muted/surface",
+        "ratio": 8.862392,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "miro",
+        "pair": "on/action",
+        "ratio": 17.014735,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "miro",
+        "pair": "ink/bg",
+        "ratio": 17.014735,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "miro",
+        "pair": "ink/surface",
+        "ratio": 15.385678,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "miro",
+        "pair": "muted/bg",
+        "ratio": 8.820962,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "miro",
+        "pair": "muted/surface",
+        "ratio": 7.976409,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "sentry",
+        "pair": "on/action",
+        "ratio": 14.006835,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "sentry",
+        "pair": "ink/bg",
+        "ratio": 18.675211,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "sentry",
+        "pair": "ink/surface",
+        "ratio": 17.201436,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "sentry",
+        "pair": "muted/bg",
+        "ratio": 9.587599,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "sentry",
+        "pair": "muted/surface",
+        "ratio": 8.830983,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "lovable",
+        "pair": "on/action",
+        "ratio": 16.468661,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "lovable",
+        "pair": "ink/bg",
+        "ratio": 15.514765,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "lovable",
+        "pair": "ink/surface",
+        "ratio": 15.514765,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "lovable",
+        "pair": "muted/bg",
+        "ratio": 5.825946,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "lovable",
+        "pair": "muted/surface",
+        "ratio": 5.825946,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "shopify",
+        "pair": "on/action",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "shopify",
+        "pair": "ink/bg",
+        "ratio": 21.0,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "shopify",
+        "pair": "ink/surface",
+        "ratio": 19.798146,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "shopify",
+        "pair": "muted/bg",
+        "ratio": 12.551609,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "shopify",
+        "pair": "muted/surface",
+        "ratio": 11.833266,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "a24",
+        "pair": "on/action",
+        "ratio": 19.313909,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "a24",
+        "pair": "ink/bg",
+        "ratio": 19.313909,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "a24",
+        "pair": "ink/surface",
+        "ratio": 18.546373,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "a24",
+        "pair": "muted/bg",
+        "ratio": 8.664641,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "a24",
+        "pair": "muted/surface",
+        "ratio": 8.320307,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "teenage",
+        "pair": "on/action",
+        "ratio": 17.64141,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "teenage",
+        "pair": "ink/bg",
+        "ratio": 17.64141,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "teenage",
+        "pair": "ink/surface",
+        "ratio": 17.64141,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "teenage",
+        "pair": "muted/bg",
+        "ratio": 4.961141,
+        "passesNormalTextAA": true
+      },
+      {
+        "id": "teenage",
+        "pair": "muted/surface",
+        "ratio": 4.961141,
+        "passesNormalTextAA": true
+      }
+    ],
+    "nodeTestCommand": "node --test tests/themes.test.cjs",
+    "nodeTestsPassed": 7,
+    "browserMobileWidth": 390,
+    "browserMobileStudiesChecked": 30,
+    "browserMobileOverflowFailures": 0,
+    "exportFixturesChecked": [
+      "cursor",
+      "raycast",
+      "notion",
+      "claude",
+      "teenage"
+    ],
+    "hostedFontStylesheetVariantsChecked": 12,
+    "scope": "Base opaque text/action pairs only; not a full accessibility certification."
+  }
+}

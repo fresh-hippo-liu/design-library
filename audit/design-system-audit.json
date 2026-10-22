@@ -1,0 +1,1204 @@
+{
+  "checkedAt": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "scope": "Public website style studies; not certification of official brand systems",
+  "sourceCodeSha256": {
+    "systems.js": "738ed4bf928c466dd620b10e675b0fa12711de897cc0ce3cb283e15dccea49da",
+    "app.js": "326ed534fe9af5946afc67aea687334625c0dd13e349c8b54760bcfa5ce59c7d",
+    "styles.css": "792d8b535d8380d9c3832263f43d6de0d1e090b9c1eb1b049498ee470f78b267",
+    "index.html": "a57f943fac45363ba3e9af412d5062e02a1886539ca41fecbaffae67ef6b0e21"
+  },
+  "contrastMethod": "WCAG 2 relative luminance of opaque sRGB hex colors; normal-text AA threshold 4.5; no composited gradients or interaction states",
+  "contrastPairCount": 150,
+  "buttonContrastFailures": [
+    "airbnb",
+    "claude",
+    "cursor",
+    "zapier",
+    "mistral"
+  ],
+  "systems": [
+    {
+      "id": "linear",
+      "name": "Linear",
+      "line": 4,
+      "status": "部分确认，需修正",
+      "confirmed": "官网 CSS 确认营销背景 #010102、正文 #F7F8F8、三级文字 #8A8F98、品牌靛蓝 #5E6AD2、链接 #828FFF；font-weight-medium 为 510。",
+      "issues": "surface #1C1E22 缺少对应角色依据；官网 bg-secondary 为 #1C1C1F，panel 为 #0F1011。字体声明是 Inter Variable；不宜把 Linear Sans 写成已核实字体。官网本身区分品牌色、链接色和语义色，“没有第二亮色”应限定为作者建议。",
+      "sourceUrls": [
+        "https://linear.app"
+      ],
+      "retrievedStyleUrls": [
+        "https://static.linear.app/web/_next/static/css/Tpxbzi3N.css",
+        "https://static.linear.app/web/_next/static/css/BNNY1qpD.css",
+        "https://static.linear.app/web/_next/static/css/pcGZUK31.css",
+        "https://static.linear.app/web/_next/static/css/BYDaMjMd.css",
+        "https://static.linear.app/web/_next/static/css/dcAi4KbO.css",
+        "https://static.linear.app/web/_next/static/css/Bl8l9ltc.css",
+        "https://static.linear.app/web/_next/static/css/C-dCEHFh.css",
+        "https://static.linear.app/web/_next/static/css/BEZjGLsi.css",
+        "https://static.linear.app/web/_next/static/css/DCkYdNzn.css",
+        "https://static.linear.app/web/_next/static/css/3p32EmO1.css",
+        "https://static.linear.app/web/_next/static/css/mgHd0F-S.css",
+        "https://static.linear.app/web/_next/static/css/ByHmXOx_.css",
+        "https://static.linear.app/web/_next/static/css/CNiZpoOa.css",
+        "https://static.linear.app/web/_next/static/css/mYgpGelO.css",
+        "https://static.linear.app/web/_next/static/css/Blq4ZW3W.css",
+        "https://static.linear.app/web/_next/static/css/Cidbg-cz.css"
+      ],
+      "contrast": {
+        "on/accent": 4.7,
+        "ink/bg": 19.61,
+        "ink/surface": 15.687,
+        "muted/bg": 6.421,
+        "muted/surface": 5.137
+      },
+      "currentTokens": {
+        "bg": "#010102",
+        "surface": "#1C1E22",
+        "ink": "#F7F8F8",
+        "muted": "#8A8F98",
+        "accent": "#5E6AD2",
+        "on": "#FFFFFF",
+        "line": "#23252A",
+        "r": "8px",
+        "rc": "12px",
+        "face": "Linear Sans / Inter",
+        "css": "\"Inter\", \"SF Pro Display\", sans-serif",
+        "weight": 510,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "line": 46,
+      "status": "核心色有依据，仍需补证",
+      "confirmed": "官网 HDS 的 brand-600=#533AFD、neutral-990=#061B31、neutral-50=#E5EDF5；#F6F9FC、#FF6118、#FB76FA 也有具体 CSS 用途。sohne-var 字体可确认。",
+      "issues": "muted #425466 未在取得的本次样式中匹配；官网使用 text-soft→neutral-600 等语义映射。300 字重、统一胶囊和固定阴影只能作为选定样例的提炼，尚非官网全局规范。",
+      "sourceUrls": [
+        "https://stripe.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/d0587afad5d01631.css",
+        "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/e4746273d30fe790.css",
+        "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/dd48e9b79ab6e2e7.css",
+        "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/0a1af55a00525366.css"
+      ],
+      "contrast": {
+        "on/accent": 6.192,
+        "ink/bg": 17.372,
+        "ink/surface": 16.441,
+        "muted/bg": 7.802,
+        "muted/surface": 7.384
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#F6F9FC",
+        "ink": "#061B31",
+        "muted": "#425466",
+        "accent": "#533AFD",
+        "on": "#FFFFFF",
+        "line": "#E5EDF5",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Söhne",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 300,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "line": 88,
+      "status": "需要修正原则",
+      "confirmed": "Geist / GeistSans、黑白基础与 #7928CA、#0070F3 的历史/装饰变量有来源。",
+      "issues": "“界面只有黑白”不适用于完整 Geist：官方有蓝、红、琥珀、绿、青、紫、粉等色阶及语义用途；按钮也有 rounded 和 shadow 变体，不能规定全部 6px。营销页面研究应与 Geist 产品系统分开。",
+      "sourceUrls": [
+        "https://vercel.com/geist/colors",
+        "https://vercel.com/geist/button"
+      ],
+      "retrievedStyleUrls": [
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/43y9jpd8nyv5z.css",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3f_a4v4lhq3-d.css",
+        "https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3u82rwmj_1n8p.css"
+      ],
+      "contrast": {
+        "on/accent": 17.928,
+        "ink/bg": 17.176,
+        "ink/surface": 17.928,
+        "muted/bg": 8.099,
+        "muted/surface": 8.453
+      },
+      "currentTokens": {
+        "bg": "#FAFAFA",
+        "surface": "#FFFFFF",
+        "ink": "#171717",
+        "muted": "#4D4D4D",
+        "accent": "#171717",
+        "on": "#FFFFFF",
+        "line": "#EBEBEB",
+        "r": "6px",
+        "rc": "12px",
+        "face": "Geist",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 500,
+        "track": "-0.04em"
+      }
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "line": 130,
+      "status": "核心色有依据，角色需细分",
+      "confirmed": "本次官网 CSS 能匹配全部九个基础颜色字段：#F5F5F7、白、#1D1D1F、#6E6E73、#0071E3、#D2D2D7、黑、#FAFAFC。SF Pro Text / Display 家族可确认。",
+      "issues": "这证明色值存在，不证明每个角色都全站统一。链接与实心 CTA 应分别取样；“只在灰白和纯黑之间交替”、18px 卡片和 600 字重不应写成整个 Apple / HIG 的规则。",
+      "sourceUrls": [
+        "https://apple.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css",
+        "https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css",
+        "https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css",
+        "https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3",
+        "https://www.apple.com/v/homepage/a/styles/main.built.css",
+        "https://www.apple.com/v/homepage/a/styles/homepage.built.css",
+        "https://www.apple.com/autopush/us/fam-gallery/styles/home-gallery.built.css",
+        "https://www.apple.com/v/homepage/a/styles/inline-media.built.css",
+        "https://www.apple.com/homepage/styles/index_jr6iaf49.built.css"
+      ],
+      "contrast": {
+        "on/accent": 4.697,
+        "ink/bg": 15.457,
+        "ink/surface": 16.83,
+        "muted/bg": 4.658,
+        "muted/surface": 5.071
+      },
+      "currentTokens": {
+        "bg": "#F5F5F7",
+        "surface": "#FFFFFF",
+        "ink": "#1D1D1F",
+        "muted": "#6E6E73",
+        "accent": "#0071E3",
+        "on": "#FFFFFF",
+        "line": "#D2D2D7",
+        "r": "999px",
+        "rc": "18px",
+        "face": "SF Pro",
+        "css": "-apple-system, \"SF Pro Display\", \"Inter\", sans-serif",
+        "weight": 600,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "line": 172,
+      "status": "按钮对比度需修正；来源待补",
+      "confirmed": "本地黑白中性色搭配可读；此处仅能确认库中的配色计算，不能给官网精确采样背书。",
+      "issues": "#FF385C 配 #FFFFFF 按钮文字仅 3.516:1。官网文本能读取，但本次源站请求仅返回约 824 字节的脚本跳转页，未拿到实际样式；Cereal、16px 卡片和其他色值均应标为待补来源。不可只因熟悉品牌色便认证通过。",
+      "sourceUrls": [
+        "https://airbnb.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 3.516,
+        "ink/bg": 15.91,
+        "ink/surface": 14.851,
+        "muted/bg": 5.409,
+        "muted/surface": 5.049
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F7F7",
+        "ink": "#222222",
+        "muted": "#6A6A6A",
+        "accent": "#FF385C",
+        "on": "#FFFFFF",
+        "line": "#DDDDDD",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Airbnb Cereal",
+        "css": "\"DM Sans\", \"Circular\", sans-serif",
+        "weight": 700,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "aesop",
+      "name": "Aesop",
+      "line": 214,
+      "status": "待核实",
+      "confirmed": "本地纸色 #FFFEF2 与 #333333 对比度充足，零圆角/零阴影在代码内部一致。",
+      "issues": "源站 CSS 请求返回 403；网页阅读工具仅取得降级文本。未取得色值、Suisse Intl / serif 身份和具体角色证据；Newsreader 是库的替代字体。当前只能视为风格提炼，不能标记已验证。",
+      "sourceUrls": [
+        "https://www.aesop.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 12.461,
+        "ink/bg": 12.461,
+        "ink/surface": 12.461,
+        "muted/bg": 5.309,
+        "muted/surface": 5.309
+      },
+      "currentTokens": {
+        "bg": "#FFFEF2",
+        "surface": "#FFFEF2",
+        "ink": "#333333",
+        "muted": "#6E6A62",
+        "accent": "#333333",
+        "on": "#FFFEF2",
+        "line": "#E4E0D0",
+        "r": "0px",
+        "rc": "0px",
+        "face": "Suisse Intl + humanist serif",
+        "css": "\"Newsreader\", \"Iowan Old Style\", serif",
+        "weight": 460,
+        "track": "0em"
+      }
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "line": 256,
+      "status": "核心品牌色确认，其余需补证",
+      "confirmed": "官网变量直接确认 --colors-brandBlue:#3139FB、--colors-brandOffwhite:#FFFCEC；Marlin 字体家族存在。",
+      "issues": "#141414、#5C5848、#E7E2C8、#FFB38A、#FFF6C2 未在所取样式中匹配；20px 卡片、560 字重仍需对应元素。Arc 页面当前还包含 Dia 导流，研究应绑定具体页面与时间。",
+      "sourceUrls": [
+        "https://arc.net"
+      ],
+      "retrievedStyleUrls": [
+        "https://arc.net/_next/static/css/df28c1bc1b1a6c7d.css"
+      ],
+      "contrast": {
+        "on/accent": 6.755,
+        "ink/bg": 17.885,
+        "ink/surface": 18.423,
+        "muted/bg": 6.924,
+        "muted/surface": 7.132
+      },
+      "currentTokens": {
+        "bg": "#FFFCEC",
+        "surface": "#FFFFFF",
+        "ink": "#141414",
+        "muted": "#5C5848",
+        "accent": "#3139FB",
+        "on": "#FFFFFF",
+        "line": "#E7E2C8",
+        "r": "999px",
+        "rc": "20px",
+        "face": "Marlin",
+        "css": "\"Outfit\", \"Avenir Next\", sans-serif",
+        "weight": 560,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "line": 298,
+      "status": "需要修正",
+      "confirmed": "官网 gray-050=#FAF9F5 可确认；当期样式声明 anthropicSans、anthropicSerif、anthropicMono。",
+      "issues": "其余所列暖灰、#CC785C、青绿与琥珀色未在本次所取样式中匹配；Copernicus / Tiempos 不能冒充当期已确认字体。白字/陶土按钮只有 3.277:1。“motion 0.8s”没有动作、缓动、来源或减少动态效果约束，不应作为通用交互规则。",
+      "sourceUrls": [
+        "https://claude.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://claude.com/_next/static/chunks/2194ef83048b6cde.css",
+        "https://claude.com/_next/static/chunks/eefc970a00e992c4.css",
+        "https://claude.com/_next/static/chunks/f4dfee2e36b78402.css",
+        "https://claude.com/_next/static/chunks/598df0682040af8d.css",
+        "https://claude.com/_next/static/chunks/0731a1899aa6bcde.css",
+        "https://claude.com/_next/static/chunks/1ee281c0cf2dc6a5.css",
+        "https://claude.com/_next/static/chunks/195c2e474ca3e6f7.css"
+      ],
+      "contrast": {
+        "on/accent": 3.277,
+        "ink/bg": 17.005,
+        "ink/surface": 15.792,
+        "muted/bg": 5.453,
+        "muted/surface": 5.064
+      },
+      "currentTokens": {
+        "bg": "#FAF9F5",
+        "surface": "#F5F0E8",
+        "ink": "#181715",
+        "muted": "#6B6560",
+        "accent": "#CC785C",
+        "on": "#FFFFFF",
+        "line": "#E8E0D2",
+        "r": "12px",
+        "rc": "16px",
+        "face": "Copernicus / Tiempos",
+        "css": "\"Newsreader\", \"Iowan Old Style\", serif",
+        "weight": 460,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "line": 340,
+      "status": "主按钮色和字体名需修正",
+      "confirmed": "浏览器实测 Get Notion free 主按钮为 rgb(0,117,222) 即 #0075DE，白字、8px 圆角。官网 CSS 使用 NotionInter，gray-200=#F6F5F4。",
+      "issues": "库中 accent=#5645D4，以及“紫色是唯一固定品牌操作色”的原则与当期首页直接冲突。应使用该蓝色作为“该页主按钮”样本；Notion Sans 改为本次查到的 NotionInter，或明确记录历史版本。",
+      "sourceUrls": [
+        "https://www.notion.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.notion.com/_next/static/chunks/3u28sy5vjhv73.css",
+        "https://www.notion.com/_next/static/chunks/1bdtfefuwpxy4.css",
+        "https://www.notion.com/_next/static/chunks/0zupkf2z6vwtz.css",
+        "https://www.notion.com/_next/static/chunks/23eku4f__kjxs.css",
+        "https://www.notion.com/_next/static/chunks/2zk58n9aa7mdu.css",
+        "https://www.notion.com/_next/static/chunks/3ay9b6vtdd8wo.css",
+        "https://www.notion.com/_next/static/chunks/0t000su-q8dk_.css",
+        "https://www.notion.com/_next/static/chunks/0tw3coitm2-dz.css",
+        "https://www.notion.com/_next/static/chunks/1m_vr6ksqpmpn.css",
+        "https://www.notion.com/_next/static/chunks/1wmuwhxvrnv1w.css",
+        "https://www.notion.com/_next/static/chunks/23urjlv78z993.css",
+        "https://www.notion.com/_next/static/chunks/2b_dfm88qhf0j.css",
+        "https://www.notion.com/_next/static/chunks/37k89fl43sq_k.css"
+      ],
+      "contrast": {
+        "on/accent": 6.567,
+        "ink/bg": 17.404,
+        "ink/surface": 15.984,
+        "muted/bg": 6.796,
+        "muted/surface": 6.242
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#F6F5F4",
+        "ink": "#1A1A1A",
+        "muted": "#5D5B54",
+        "accent": "#5645D4",
+        "on": "#FFFFFF",
+        "line": "#E5E3DF",
+        "r": "8px",
+        "rc": "12px",
+        "face": "Notion Sans",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 600,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "line": 382,
+      "status": "字体确认，色板与字重需补证",
+      "confirmed": "官网声明 figmaSans / figmaMono；有 8、12、16、24、28 和 full 等圆角 token。",
+      "issues": "库中的四个具体粉彩色未在本次取到的 CSS 中字面匹配，不能认证为官方色板。原则写 display weight≈340，数据却为 400，内部不一致；无论最终选哪一个都应绑定具体标题证据。",
+      "sourceUrls": [
+        "https://www.figma.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.figma.com/_netlify/_next/static/css/617e0bc399c83bea.css"
+      ],
+      "contrast": {
+        "on/accent": 21.0,
+        "ink/bg": 21.0,
+        "ink/surface": 19.578,
+        "muted/bg": 8.862,
+        "muted/surface": 8.262
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F7F5",
+        "ink": "#000000",
+        "muted": "#4A4A4A",
+        "accent": "#000000",
+        "on": "#FFFFFF",
+        "line": "#E6E6E6",
+        "r": "999px",
+        "rc": "24px",
+        "face": "figmaSans",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 400,
+        "track": "-0.04em"
+      }
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "line": 424,
+      "status": "主要方向确认，精确值未全确认",
+      "confirmed": "浏览器当期 h1 声明 GT Walsheim Medium、500 字重；黑色舞台和白色主要操作的大方向有页面依据。",
+      "issues": "#090909、#D44DF0、#FF7A3D 未在本次样式中匹配。即使 CSS 包含很多字体，也不能据此否定 h1 的 Walsheim；要按实际元素判定。按钮在该次加载中的样式有不完整信号，未据此认证统一 pill 半径。",
+      "sourceUrls": [
+        "https://www.framer.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 21.0,
+        "ink/bg": 19.912,
+        "ink/surface": 18.423,
+        "muted/bg": 6.989,
+        "muted/surface": 6.466
+      },
+      "currentTokens": {
+        "bg": "#090909",
+        "surface": "#141414",
+        "ink": "#FFFFFF",
+        "muted": "#999999",
+        "accent": "#FFFFFF",
+        "on": "#000000",
+        "line": "#262626",
+        "r": "999px",
+        "rc": "16px",
+        "face": "GT Walsheim",
+        "css": "\"Outfit\", \"Avenir Next\", sans-serif",
+        "weight": 500,
+        "track": "-0.045em"
+      }
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "line": 466,
+      "status": "部分确认，原则与实现不一致",
+      "confirmed": "官网变量确认 bg-200=#18191A、fg=#F4F4F6、border=#242728、品牌红 #FF6363；Inter 存在。",
+      "issues": "#07080A 的匹配上下文是某个 tag，不能单凭出现就认证为全站 canvas；muted #A0A0A0 未匹配。原则说白色 pill，但 r=10px；原则说启用 ss03，库中无 font-feature-settings 实现。",
+      "sourceUrls": [
+        "https://www.raycast.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.raycast.com/_next/static/immutable/chunks/1v-_-tdcuy9cb.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/1ak76hpjb0mpr.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/0sw-8eaq3ujx0.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/3v0rkvocmoxgi.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/00u9ghqjzd21a.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/43rxm-e0so33v.css",
+        "https://www.raycast.com/_next/static/immutable/chunks/09hoewholbu37.css"
+      ],
+      "contrast": {
+        "on/accent": 21.0,
+        "ink/bg": 18.239,
+        "ink/surface": 16.027,
+        "muted/bg": 7.662,
+        "muted/surface": 6.733
+      },
+      "currentTokens": {
+        "bg": "#07080A",
+        "surface": "#18191A",
+        "ink": "#F4F4F6",
+        "muted": "#A0A0A0",
+        "accent": "#FFFFFF",
+        "on": "#000000",
+        "line": "#242728",
+        "r": "10px",
+        "rc": "12px",
+        "face": "Inter ss03",
+        "css": "\"Inter\", \"SF Pro Text\", sans-serif",
+        "weight": 500,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "line": 508,
+      "status": "字体过时；页面范围需修正",
+      "confirmed": "Spotify 官方于 2024-05-22 宣布 Spotify Mix，并明确替换应用和桌面体验的旧字体。",
+      "issues": "face=Circular 作为 2026 年当前主字体不正确，应注明历史或换成 Spotify Mix。当前 url=spotify.com 指向营销入口，描述却是播放器系统，宜绑定 open.spotify.com。深色/绿色的具体 token 本次未取得足够 CSS 证据，不能全部认证。",
+      "sourceUrls": [
+        "https://newsroom.spotify.com/2024-05-22/introducing-spotify-mix-our-new-and-exclusive-font/",
+        "https://open.spotify.com/"
+      ],
+      "retrievedStyleUrls": [
+        "https://open.spotifycdn.com/cdn/build/mobile-web-player/mobile-web-player.4f1c6457.css"
+      ],
+      "contrast": {
+        "on/accent": 10.944,
+        "ink/bg": 18.734,
+        "ink/surface": 17.756,
+        "muted/bg": 8.935,
+        "muted/surface": 8.469
+      },
+      "currentTokens": {
+        "bg": "#121212",
+        "surface": "#181818",
+        "ink": "#FFFFFF",
+        "muted": "#B3B3B3",
+        "accent": "#1ED760",
+        "on": "#000000",
+        "line": "#282828",
+        "r": "999px",
+        "rc": "8px",
+        "face": "Circular",
+        "css": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 700,
+        "track": "0em"
+      }
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "line": 551,
+      "status": "色板与 token 不一致",
+      "confirmed": "官网资源中有 Nike Futura / Nike Futura ND、Helvetica Now Text 等字体；黑白与强摄影是可保留的方向。",
+      "issues": "运行 muted=#C8C8C8、line=#2A2A2A，色板却显示 Muted=#707072、Line=#E5E5E5，把深浅模式混在一套里。Futura 并非全部文字唯一字体，应把标题与正文分开；Barlow Condensed 是替代品。",
+      "sourceUrls": [
+        "https://www.nike.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.nike.com/assets/ncss/glyphs/2.6/css/glyphs.min.css",
+        "https://www.nike.com/static/ncss/5.0/dotcom/desktop/css/ncss.en-gb.min.css",
+        "https://static-assets.nike.com/video-player/2.2.0/nike-one-video-player.min.css",
+        "https://www.nike.com/_next/static/chunks/d33b5015547e6c8e.css",
+        "https://www.nike.com/_next/static/chunks/43b4c57a22e14da7.css"
+      ],
+      "contrast": {
+        "on/accent": 18.883,
+        "ink/bg": 18.883,
+        "ink/surface": 17.404,
+        "muted/bg": 11.286,
+        "muted/surface": 10.402
+      },
+      "currentTokens": {
+        "bg": "#111111",
+        "surface": "#1A1A1A",
+        "ink": "#FFFFFF",
+        "muted": "#C8C8C8",
+        "accent": "#FFFFFF",
+        "on": "#111111",
+        "line": "#2A2A2A",
+        "r": "999px",
+        "rc": "0px",
+        "face": "Futura",
+        "css": "\"Barlow Condensed\", \"Futura\", sans-serif",
+        "weight": 700,
+        "track": "0em"
+      }
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "line": 594,
+      "status": "核心色确认，限制过度",
+      "confirmed": "官网确认 bright-green=#9FE870、forest-green=#163300、content-primary=#0E0F0C、content-secondary=#454745；Inter 与 Wise Sans 都存在。",
+      "issues": "“酸绿不可作为大背景”不是官方通用约束：官网 CSS 有 .background--light{background-color:var(--color-bright-green)}。应写成该示例的用色比例建议。line #D5DDD0 未匹配，仍需来源。",
+      "sourceUrls": [
+        "https://wise.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://wise.com/static-assets/app/_next/static/css/35da0d67b1748460.css",
+        "https://wise.com/static-assets/app/_next/static/css/507cf890c7dd1dee.css",
+        "https://wise.com/static-assets/app/_next/static/css/7ebeadc0c79ba63c.css",
+        "https://wise.com/static-assets/app/_next/static/css/0c95189da1b561ff.css",
+        "https://wise.com/static-assets/app/_next/static/css/0d1853f3c0b51458.css",
+        "https://wise.com/static-assets/app/_next/static/css/0cc62fce150c273e.css",
+        "https://wise.com/static-assets/app/_next/static/css/6e8434b434334f36.css",
+        "https://wise.com/static-assets/app/_next/static/css/d8bc9a56765c98f3.css",
+        "https://wise.com/static-assets/app/_next/static/css/4066a4dfc8c3fe0c.css"
+      ],
+      "contrast": {
+        "on/accent": 9.452,
+        "ink/bg": 15.982,
+        "ink/surface": 19.225,
+        "muted/bg": 7.792,
+        "muted/surface": 9.374
+      },
+      "currentTokens": {
+        "bg": "#E8EBE6",
+        "surface": "#FFFFFF",
+        "ink": "#0E0F0C",
+        "muted": "#454745",
+        "accent": "#9FE870",
+        "on": "#163300",
+        "line": "#D5DDD0",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Wise Sans",
+        "css": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 700,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "line": 636,
+      "status": "部分确认，地色和角色需补证",
+      "confirmed": "官网 CSS 可确认 #EEEFE9（tan）、#23251D、#4D4F46、#F7A501，字体 IBM Plex Sans Variable。",
+      "issues": "tan 出现不等于所有页面 ground 都是它；该站存在更多明暗层级、桌面式窗口与控件样式。line #DCDFD2 未匹配，6px/8px 圆角只能代表所选示例，不能概括全站。",
+      "sourceUrls": [
+        "https://posthog.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 7.636,
+        "ink/bg": 13.413,
+        "ink/surface": 15.512,
+        "muted/bg": 7.199,
+        "muted/surface": 8.325
+      },
+      "currentTokens": {
+        "bg": "#EEEFE9",
+        "surface": "#FFFFFF",
+        "ink": "#23251D",
+        "muted": "#4D4F46",
+        "accent": "#F7A501",
+        "on": "#23251D",
+        "line": "#DCDFD2",
+        "r": "6px",
+        "rc": "8px",
+        "face": "IBM Plex Sans",
+        "css": "\"IBM Plex Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 600,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "line": 678,
+      "status": "主要方向确认，角色仍需补证",
+      "confirmed": "官网 h1 直接使用 font-domaine；CSS 同时声明 domaine、aBCFavorit、inter、commitMono。黑底/衬线标题方向正确。",
+      "issues": "ABC Favorit 不能等同于所有正文，官网默认 sans 映射还包含 Inter。#141418、#FCFDFF 未在所取样式中匹配；12px 按钮和固定边框透明度需对应元素。Fraunces 是替代品，不是已导出的 Domaine。",
+      "sourceUrls": [
+        "https://resend.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://resend.com/_next/static/immutable/chunks/0hju7yplgxuvb.css",
+        "https://resend.com/_next/static/immutable/chunks/1-lx7yzmjor0k.css",
+        "https://resend.com/_next/static/immutable/chunks/3-87yydic7vy1.css",
+        "https://resend.com/_next/static/immutable/chunks/0q9w1p-wq49jc.css",
+        "https://resend.com/_next/static/immutable/chunks/0sz3w4ruui2m3.css"
+      ],
+      "contrast": {
+        "on/accent": 20.633,
+        "ink/bg": 20.633,
+        "ink/surface": 18.052,
+        "muted/bg": 8.369,
+        "muted/surface": 7.322
+      },
+      "currentTokens": {
+        "bg": "#000000",
+        "surface": "#141418",
+        "ink": "#FCFDFF",
+        "muted": "#A1A4A5",
+        "accent": "#FCFDFF",
+        "on": "#000000",
+        "line": "rgba(255,255,255,.14)",
+        "r": "12px",
+        "rc": "12px",
+        "face": "Domaine Display + ABC Favorit",
+        "css": "\"Fraunces\", \"Iowan Old Style\", serif",
+        "weight": 460,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "line": 720,
+      "status": "字体与精确色板需更新",
+      "confirmed": "当期营销 CSS 明确 --font-family-heading:Salesforce-Avant-Garde，--font-family-body:Salesforce-Sans；#F4EDE4 和 #F9F0FF 仍有页面样式用途。",
+      "issues": "face=Slack sans 过于笼统且不代表当期首页字体。#4A154B 和 #ECB22E 在这次取得的首页及 CSS 未匹配；这不能否认历史品牌色，但不能当作当期主按钮/强调色的认证。",
+      "sourceUrls": [
+        "https://slack.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 14.0,
+        "ink/bg": 14.514,
+        "ink/surface": 16.858,
+        "muted/bg": 4.727,
+        "muted/surface": 5.49
+      },
+      "currentTokens": {
+        "bg": "#F4EDE4",
+        "surface": "#FFFFFF",
+        "ink": "#1D1D1D",
+        "muted": "#696969",
+        "accent": "#4A154B",
+        "on": "#FFFFFF",
+        "line": "#E6E6E6",
+        "r": "8px",
+        "rc": "12px",
+        "face": "Slack sans",
+        "css": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 700,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "line": 762,
+      "status": "颜色角色明确错误",
+      "confirmed": "官网确认 --color-theme-bg:#F7F7F4、--color-theme-fg:#26251E、--color-theme-accent:#F54E00；CursorGothic、h1 400 字重也确认。",
+      "issues": "浏览器实测 Download for macOS 主按钮：底 #26251E、字 #F7F7F4、胶囊。库却使用橙色底/白字和 8px 圆角，前者仅 3.516:1。应拆 brand-accent 与 action-primary，而不是直接改掉品牌橙色。",
+      "sourceUrls": [
+        "https://cursor.com/",
+        "https://cursor.com/en-US/brand"
+      ],
+      "retrievedStyleUrls": [
+        "https://cursor.com/marketing-static/_next/static/immutable/chunks/1ag9shjq1y4d5.css",
+        "https://cursor.com/marketing-static/_next/static/immutable/chunks/364m6e4iftify.css",
+        "https://cursor.com/marketing-static/_next/static/immutable/chunks/1eo2584housg1.css",
+        "https://cursor.com/marketing-static/_next/static/immutable/chunks/19k0a3m3w-rrd.css"
+      ],
+      "contrast": {
+        "on/accent": 3.516,
+        "ink/bg": 14.325,
+        "ink/surface": 15.376,
+        "muted/bg": 6.627,
+        "muted/surface": 7.113
+      },
+      "currentTokens": {
+        "bg": "#F7F7F4",
+        "surface": "#FFFFFF",
+        "ink": "#26251E",
+        "muted": "#5A5852",
+        "accent": "#F54E00",
+        "on": "#FFFFFF",
+        "line": "#E6E5E0",
+        "r": "8px",
+        "rc": "12px",
+        "face": "Cursor Gothic",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 400,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "line": 804,
+      "status": "核心红与字体确认，圆角需分角色",
+      "confirmed": "当期源站内嵌样式包含 #E60023、#FBFBF9、#262622、#E5E5E0 和 Pin Sans 的 @font-face。",
+      "issues": "这些存在性证据不足以证明全部角色；32px 只能作为某类图片容器样本，不能统一代表所有 Card。完整 Gestalt 还有语义色、状态、文字层级；当前六色色板不等于 Gestalt。",
+      "sourceUrls": [
+        "https://www.pinterest.com"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 4.785,
+        "ink/bg": 14.658,
+        "ink/surface": 15.187,
+        "muted/bg": 6.496,
+        "muted/surface": 6.73
+      },
+      "currentTokens": {
+        "bg": "#FBFBF9",
+        "surface": "#FFFFFF",
+        "ink": "#262622",
+        "muted": "#5C5C56",
+        "accent": "#E60023",
+        "on": "#FFFFFF",
+        "line": "#E5E5E0",
+        "r": "999px",
+        "rc": "32px",
+        "face": "Pin Sans",
+        "css": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 600,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "line": 846,
+      "status": "浅色模式声明错误",
+      "confirmed": "当期首页导航明确提供 Light / System / Dark。CSS 资源确认 ManukaCondensed_Black 和 PolySans 系列。",
+      "issues": "原则“There is no light mode”错误。#131313、#3CFFD0、#5200FF 有来源，但应限定为深色变体并补浅色 token，不能用这一套覆盖整个站。",
+      "sourceUrls": [
+        "https://www.theverge.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.theverge.com/_next/static/chunks/2rzeahq4ohgko.css",
+        "https://www.theverge.com/_next/static/chunks/2ph2ck9p7cbwy.css",
+        "https://www.theverge.com/_next/static/chunks/2k6yvppo7idsh.css",
+        "https://www.theverge.com/_next/static/chunks/3v5k73_xaxc2m.css",
+        "https://www.theverge.com/_next/static/chunks/1tdvquaflf5h5.css",
+        "https://www.theverge.com/_next/static/chunks/0_ipxvsubslyb.css",
+        "https://www.theverge.com/_next/static/chunks/0renlf90l20c6.css",
+        "https://www.theverge.com/_next/static/chunks/0jv-544foh2ef.css",
+        "https://www.theverge.com/_next/static/chunks/2usm66m8-e08h.css",
+        "https://www.theverge.com/_next/static/chunks/1rnxdgbz6ldi1.css",
+        "https://www.theverge.com/_next/static/chunks/38qawimitdf6f.css",
+        "https://www.theverge.com/_next/static/chunks/2inz99w9ylr7k.css",
+        "https://www.theverge.com/_next/static/chunks/0gw0u3grhzbww.css",
+        "https://www.theverge.com/_next/static/chunks/263ghs5os2zw4.css",
+        "https://www.theverge.com/_next/static/chunks/0lp4fb93k3xf0.css",
+        "https://www.theverge.com/_next/static/chunks/0pd_bkphx4ngj.css"
+      ],
+      "contrast": {
+        "on/accent": 16.407,
+        "ink/bg": 18.58,
+        "ink/surface": 13.772,
+        "muted/bg": 6.125,
+        "muted/surface": 4.54
+      },
+      "currentTokens": {
+        "bg": "#131313",
+        "surface": "#2D2D2D",
+        "ink": "#FFFFFF",
+        "muted": "#949494",
+        "accent": "#3CFFD0",
+        "on": "#000000",
+        "line": "#3CFFD0",
+        "r": "0px",
+        "rc": "0px",
+        "face": "Manuka + PolySans",
+        "css": "\"Barlow Condensed\", \"Arial Narrow\", sans-serif",
+        "weight": 700,
+        "track": "0em"
+      }
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "line": 889,
+      "status": "字体方向确认；色板内部错误",
+      "confirmed": "官网 CSS 声明 D-DIN、D-DIN-Bold、D-DIN-PRO，并还有 Roboto Mono。黑白大图方向可保留。",
+      "issues": "运行 muted=#A8A8B0、line=#3A3A3F；色板却为 Muted=#5A5A5F、Line=#E0E0E8。line #3A3A3F 本次没有直接来源；“全站没有卡片”也不能由首页视觉推出。",
+      "sourceUrls": [
+        "https://www.spacex.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://www.spacex.com/styles.1a4bd8588c6ea618.css"
+      ],
+      "contrast": {
+        "on/accent": 21.0,
+        "ink/bg": 21.0,
+        "ink/surface": 21.0,
+        "muted/bg": 8.893,
+        "muted/surface": 8.893
+      },
+      "currentTokens": {
+        "bg": "#000000",
+        "surface": "#000000",
+        "ink": "#FFFFFF",
+        "muted": "#A8A8B0",
+        "accent": "#FFFFFF",
+        "on": "#000000",
+        "line": "#3A3A3F",
+        "r": "0px",
+        "rc": "0px",
+        "face": "D-DIN",
+        "css": "\"Barlow Condensed\", \"DIN Alternate\", sans-serif",
+        "weight": 500,
+        "track": "0.08em"
+      }
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "line": 932,
+      "status": "按钮对比度与字体需修正",
+      "confirmed": "官网 CSS 确认 #FFFEFB、#F8F4F0、#201515、#605D52、#FF4F00 的存在及部分具体角色；字体声明 Inter、DegularDisplay、Serrif。",
+      "issues": "白字配 #FF4F00 仅 3.296:1；不能默认把品牌橙当所有实心按钮色。Zapier sans 不是足够准确的当前字体记录；line #E6DFD6 未匹配，统一 pill 仍需具体元素证据。",
+      "sourceUrls": [
+        "https://zapier.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://marketing-site.vercel.zapier.com/_next/static/css/2e4b04ec26acb0a4.css?dpl=dpl_EedNEVnaioda7RWYoYdgfh5V8hpF",
+        "https://marketing-site.vercel.zapier.com/_next/static/css/7bc3091a4bb34ef0.css?dpl=dpl_EedNEVnaioda7RWYoYdgfh5V8hpF",
+        "https://marketing-site.vercel.zapier.com/_next/static/css/f032f907b624c35d.css?dpl=dpl_EedNEVnaioda7RWYoYdgfh5V8hpF",
+        "https://marketing-site.vercel.zapier.com/_next/static/css/c3a32ec1993109d3.css?dpl=dpl_EedNEVnaioda7RWYoYdgfh5V8hpF",
+        "https://marketing-site.vercel.zapier.com/_next/static/css/143ccc4c104b2bed.css?dpl=dpl_EedNEVnaioda7RWYoYdgfh5V8hpF"
+      ],
+      "contrast": {
+        "on/accent": 3.296,
+        "ink/bg": 17.653,
+        "ink/surface": 16.269,
+        "muted/bg": 6.538,
+        "muted/surface": 6.025
+      },
+      "currentTokens": {
+        "bg": "#FFFEFB",
+        "surface": "#F8F4F0",
+        "ink": "#201515",
+        "muted": "#605D52",
+        "accent": "#FF4F00",
+        "on": "#FFFFFF",
+        "line": "#E6DFD6",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Zapier sans",
+        "css": "\"DM Sans\", \"Helvetica Neue\", sans-serif",
+        "weight": 700,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "line": 974,
+      "status": "对比度不通过；精确样式待补",
+      "confirmed": "官方 brand 页面确认像素猫标志、渐变/单色版本及像素插画构成视觉系统。",
+      "issues": "白字配 #FA520F 仅 3.345:1。首页文本可读，但两次源站 CSS 获取超时，不能认证 Near-serif、500 字重、999px 按钮和所列具体色值。应补实际页面样式证据；官方标志规范不能代替 UI token。",
+      "sourceUrls": [
+        "https://mistral.ai/brand/",
+        "https://mistral.ai/"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 3.345,
+        "ink/bg": 15.506,
+        "ink/surface": 16.483,
+        "muted/bg": 8.337,
+        "muted/surface": 8.862
+      },
+      "currentTokens": {
+        "bg": "#FFF8E0",
+        "surface": "#FFFFFF",
+        "ink": "#1F1F1F",
+        "muted": "#4A4A4A",
+        "accent": "#FA520F",
+        "on": "#FFFFFF",
+        "line": "#E5E5E5",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Near-serif display",
+        "css": "\"Newsreader\", \"Iowan Old Style\", serif",
+        "weight": 500,
+        "track": "-0.02em"
+      }
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "line": 1016,
+      "status": "部分确认，粉彩值需补证",
+      "confirmed": "官网确认 Roobert PRO 家族，primary/black=#1C1C1E；#FFD02F 至少出现在边框工具类中，其作为品牌主黄的语义角色仍需单独取样。",
+      "issues": "#FFF4C4、#FF9999、#0FBCB0 作为这套具体色板缺乏本次来源；颜色存在不代表同一层级。不同组件有不同圆角 token，16px 仅应记录为所选 card 的样本。",
+      "sourceUrls": [
+        "https://miro.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://static-website.miro.com/miro-site-lp-build-assets/assets/styles/one-trust-cookie-banner.css"
+      ],
+      "contrast": {
+        "on/accent": 17.015,
+        "ink/bg": 17.015,
+        "ink/surface": 15.386,
+        "muted/bg": 8.821,
+        "muted/surface": 7.976
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#FFF4C4",
+        "ink": "#1C1C1E",
+        "muted": "#4A4A4E",
+        "accent": "#1C1C1E",
+        "on": "#FFFFFF",
+        "line": "#E6E6EA",
+        "r": "999px",
+        "rc": "16px",
+        "face": "Roobert",
+        "css": "\"Outfit\", \"Avenir Next\", sans-serif",
+        "weight": 600,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "line": 1058,
+      "status": "多项核心色确认，主操作仍需补证",
+      "confirmed": "官网确认 #150F23、rich-black=#1F1633、lt-pink=#FA7FAA、dk-violet=#362D59、blurple=#6A5FC1；字体有 Rubik 和 Dammit Sans。",
+      "issues": "#C2EF4E 在源站出现，但其作为全站唯一主操作色的角色尚未确认；不可仅靠字面匹配认证。展示字体写 Sentry display 太笼统，建议写实际字体名，并与正文 Rubik 分开。",
+      "sourceUrls": [
+        "https://sentry.io"
+      ],
+      "retrievedStyleUrls": [
+        "https://sentry.io/_astro/Layout.CKBeCQbz.css",
+        "https://sentry.io/_astro/AnimatedLogoGrid.Drn3FiRC.css",
+        "https://sentry.io/_astro/MarketoForm.BX_9vJpz.css"
+      ],
+      "contrast": {
+        "on/accent": 14.007,
+        "ink/bg": 18.675,
+        "ink/surface": 17.201,
+        "muted/bg": 9.588,
+        "muted/surface": 8.831
+      },
+      "currentTokens": {
+        "bg": "#150F23",
+        "surface": "#1F1633",
+        "ink": "#FFFFFF",
+        "muted": "#BDB8C0",
+        "accent": "#C2EF4E",
+        "on": "#150F23",
+        "line": "#362D59",
+        "r": "8px",
+        "rc": "12px",
+        "face": "Sentry display / Rubik",
+        "css": "\"Space Grotesk\", \"Avenir Next\", sans-serif",
+        "weight": 600,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "line": 1100,
+      "status": "待核实",
+      "confirmed": "本地纸色/深灰的对比度充足；palette 与字段没有出现 Nike 式的同名冲突。",
+      "issues": "HTTP 403，浏览器也停在安全验证。Camera Plain、#F7F4ED、#ECEAE4 以及“只有 charcoal 不同透明度”均未取得可验证的当前来源；只能保留为作者风格研究，不能写成已确认规范。",
+      "sourceUrls": [
+        "https://lovable.dev"
+      ],
+      "retrievedStyleUrls": [],
+      "contrast": {
+        "on/accent": 16.469,
+        "ink/bg": 15.515,
+        "ink/surface": 15.515,
+        "muted/bg": 5.826,
+        "muted/surface": 5.826
+      },
+      "currentTokens": {
+        "bg": "#F7F4ED",
+        "surface": "#F7F4ED",
+        "ink": "#1C1C1C",
+        "muted": "#5F5F5D",
+        "accent": "#1C1C1C",
+        "on": "#FCFBF8",
+        "line": "#ECEAE4",
+        "r": "12px",
+        "rc": "12px",
+        "face": "Camera Plain",
+        "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+        "weight": 500,
+        "track": "-0.03em"
+      }
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "line": 1142,
+      "status": "字体和色板需修正",
+      "confirmed": "当期官网 CSS 声明 Shopify-Inter；黑底营销版式与 #C1FBD4 存在性可确认。",
+      "issues": "face=Neue Haas Grotesk 不符合本次首页字体声明。运行 line=rgba(255,255,255,.2)，色板却是 #E4E4E7；应拆深浅模式。营销官网不能代替商家后台/checkout 的设计系统。",
+      "sourceUrls": [
+        "https://www.shopify.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://cdn.shopify.com/shopifycloud/world/brochure/production-homepage/assets/documentInlineStylesheet-D3gcTLE2.js"
+      ],
+      "contrast": {
+        "on/accent": 21.0,
+        "ink/bg": 21.0,
+        "ink/surface": 19.798,
+        "muted/bg": 12.552,
+        "muted/surface": 11.833
+      },
+      "currentTokens": {
+        "bg": "#000000",
+        "surface": "#0A0A0A",
+        "ink": "#FFFFFF",
+        "muted": "#C8C8C8",
+        "accent": "#FFFFFF",
+        "on": "#000000",
+        "line": "rgba(255,255,255,.2)",
+        "r": "999px",
+        "rc": "20px",
+        "face": "Neue Haas Grotesk",
+        "css": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "weight": 500,
+        "track": "-0.04em"
+      }
+    },
+    {
+      "id": "a24",
+      "name": "A24",
+      "line": 1184,
+      "status": "字体应具体化；色值待重采",
+      "confirmed": "浏览器 h1 使用 neueMontreal，实测 weight=485；源站 CSS 还有 neueMontrealMono。",
+      "issues": "Humanist sans 太笼统；库的六个色板字面值均未在此次取到的样式中匹配。源站暖中性色包含 #0E0E0D、#FCFBFA、#F2F0ED 等及主题映射，需按具体页面层级重采，不能将 #0E0E0E / #F4F1EA 直接认证。",
+      "sourceUrls": [
+        "https://a24films.com"
+      ],
+      "retrievedStyleUrls": [
+        "https://a24films.com/_next/static/immutable/chunks/0yx_nz0bcqm24.css",
+        "https://a24films.com/_next/static/immutable/chunks/2g39-s7vh9tiv.css",
+        "https://a24films.com/_next/static/immutable/chunks/0_le8qcafe6ye.css",
+        "https://a24films.com/_next/static/immutable/chunks/2v0ehlnkgqxjv.css",
+        "https://a24films.com/_next/static/immutable/chunks/3-jodxqbix4ac.css",
+        "https://a24films.com/_next/static/immutable/chunks/274__16gekl5c.css",
+        "https://a24films.com/_next/static/immutable/chunks/42yoxs__ogrd2.css",
+        "https://a24films.com/_next/static/immutable/chunks/3ynfws_jsls51.css"
+      ],
+      "contrast": {
+        "on/accent": 17.114,
+        "ink/bg": 17.114,
+        "ink/surface": 17.114,
+        "muted/bg": 7.252,
+        "muted/surface": 7.252
+      },
+      "currentTokens": {
+        "bg": "#0E0E0E",
+        "surface": "#0E0E0E",
+        "ink": "#F4F1EA",
+        "muted": "#A39E96",
+        "accent": "#F4F1EA",
+        "on": "#0E0E0E",
+        "line": "rgba(244,241,234,.24)",
+        "r": "0px",
+        "rc": "0px",
+        "face": "Humanist sans",
+        "css": "\"Space Grotesk\", \"Helvetica Neue\", sans-serif",
+        "weight": 600,
+        "track": "-0.04em"
+      }
+    },
+    {
+      "id": "teenage",
+      "name": "Teenage Engineering",
+      "line": 1226,
+      "status": "字体及颜色需修正",
+      "confirmed": "官网 token 声明 --te-20:\"te-20\",\"Unicode\",sans-serif、--te-40:\"te-40\",\"Unicode\",sans-serif；--te-white:#F5F5F5、--te-black:#0F0E12、--te-orange:#F05A24。",
+      "issues": "“全站 monospace / IBM Plex Mono”不是当前官网的准确记录。库里的白 #FFFFFF、黑 #111111、橙 #FF5A1F 与以上品牌 token 不同；若研究某个历史产品页，应附该页和版本，不应泛指全站。",
+      "sourceUrls": [
+        "https://teenage.engineering"
+      ],
+      "retrievedStyleUrls": [
+        "https://teenage.engineering/assets/root.NRW9iUxr.css",
+        "https://teenage.engineering/assets/app-context.BmQEkhCy.css",
+        "https://teenage.engineering/assets/form.DWmR17wv.css",
+        "https://teenage.engineering/assets/block.2tPiDhcW.css",
+        "https://teenage.engineering/assets/flex.C4wW179p.css",
+        "https://teenage.engineering/assets/button.B8x4Racb.css",
+        "https://teenage.engineering/assets/container.dVm2W4Ta.css",
+        "https://teenage.engineering/assets/grid.BPtO4oiR.css",
+        "https://teenage.engineering/assets/image.B2cBDLbL.css",
+        "https://teenage.engineering/assets/spinner.CDDf_qcL.css",
+        "https://teenage.engineering/assets/error-page.8k_twQst.css",
+        "https://teenage.engineering/assets/link.vCOxmn-l.css",
+        "https://teenage.engineering/assets/not-found-page.Cbb_jp4j.css",
+        "https://teenage.engineering/assets/layout.B4ksf3_z.css",
+        "https://teenage.engineering/assets/te013.Cv5YPMAH.css",
+        "https://teenage.engineering/assets/video-js.Br91EyVy.css"
+      ],
+      "contrast": {
+        "on/accent": 18.883,
+        "ink/bg": 18.883,
+        "ink/surface": 18.883,
+        "muted/bg": 5.409,
+        "muted/surface": 5.409
+      },
+      "currentTokens": {
+        "bg": "#FFFFFF",
+        "surface": "#FFFFFF",
+        "ink": "#111111",
+        "muted": "#6A6A6A",
+        "accent": "#111111",
+        "on": "#FFFFFF",
+        "line": "#111111",
+        "r": "0px",
+        "rc": "0px",
+        "face": "Monospace",
+        "css": "\"IBM Plex Mono\", ui-monospace, monospace",
+        "weight": 400,
+        "track": "0em"
+      }
+    }
+  ]
+}

@@ -1,5 +1,749 @@
-/* Website style studies. Field evidence is dated 2026-10-22; not official brand kits. */
+/* Website style studies; see each entry for its evidence date. Not official brand kits. */
 window.SYSTEMS = [
+  {
+    "id": "runway",
+    "name": "Runway",
+    "title": "Workflow canvas",
+    "cat": "AI Creation",
+    "url": "https://runway.com/workflows",
+    "kind": "workflow",
+    "bg": "#F7F7F7",
+    "surface": "#FFFFFF",
+    "ink": "#0C0C0C",
+    "muted": "#404040",
+    "accent": "#262626",
+    "action": "#0C0C0C",
+    "on": "#FFFFFF",
+    "line": "#DADADA",
+    "c2": "#E8DDF5",
+    "c3": "#D5E7E3",
+    "bodyFace": "abcNormal (computed body)",
+    "headline": "From prompt to sequence.",
+    "note": "A study of reusable generation steps and clear input-to-output flow.",
+    "cta": "Run workflow",
+    "use": "AI video generation, reusable pipelines, and storyboard planning.",
+    "principles": [
+      "Keep inputs, models, and outputs visually distinct in a workflow example.",
+      "Show reusable templates before an empty canvas to help creators begin.",
+      "Use restrained controls so generated media remains the focal point."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public creative-tool reference",
+      "notes": "The public Workflows page describes input, media-model and LLM nodes, reusable templates, and storyboard workflows. The editor behind login was not inspected.",
+      "sources": [
+        "https://runway.com/workflows"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Creative, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed color. Element-level observation, not a global brand token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Get Started, computed background. Element-level observation, not a global brand token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Get Started, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "krea",
+    "name": "Krea",
+    "title": "Generation workspace",
+    "cat": "AI Creation",
+    "url": "https://www.krea.ai/",
+    "kind": "workflow",
+    "bg": "#F6F6F6",
+    "surface": "#FFFFFF",
+    "ink": "#181818",
+    "muted": "#626262",
+    "accent": "#222222",
+    "action": "#222222",
+    "on": "#FFFFFF",
+    "line": "#DDDDDD",
+    "c2": "#DBD5EE",
+    "c3": "#D7E5D9",
+    "bodyFace": "Unverified",
+    "headline": "Explore the next variation.",
+    "note": "An original neutral palette for a generation workspace; not sampled Krea styling.",
+    "cta": "Generate",
+    "use": "Image and video generation, reference moodboards, and iteration history.",
+    "principles": [
+      "Group image, video, and enhancement tasks without hiding their differences.",
+      "Keep reference images adjacent to generation controls in this example.",
+      "Make previous outputs easy to compare before starting another generation."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "unverified",
+      "checkedAt": "2026-10-29",
+      "scope": "Public creative-tool reference",
+      "notes": "Official public-page text lists image/video tools, Nodes and Moodboards. Browser inspection stopped at a certificate error. No live colors, fonts, or authenticated workspace UI were verified.",
+      "sources": [
+        "https://www.krea.ai/"
+      ],
+      "fontStatus": "unverified",
+      "fontNote": "Website typography unverified. Inter is a library preview choice, not a claim about Krea.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "muted": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "on": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "luma",
+    "name": "Luma",
+    "title": "Cinematic contrast",
+    "cat": "AI Creation",
+    "url": "https://lumalabs.ai/",
+    "kind": "workflow",
+    "bg": "#111111",
+    "surface": "#202020",
+    "ink": "#FFFFFF",
+    "muted": "#BBBBBB",
+    "accent": "#FFFFFF",
+    "action": "#FFFFFF",
+    "on": "#000000",
+    "line": "#3D3D3D",
+    "c2": "#434C68",
+    "c3": "#726451",
+    "bodyFace": "__graphik_7126cf (computed body)",
+    "headline": "Give the scene a direction.",
+    "note": "A dark library canvas inspired by a public media-led hero, with observed white controls.",
+    "cta": "Create scene",
+    "use": "AI filmmaking presentation, cinematic previews, and scene review.",
+    "principles": [
+      "Let the media preview lead and keep controls legible around it.",
+      "Separate scene navigation from the primary generation action.",
+      "Use a stable backing surface beneath text instead of relying on video contrast."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public creative-tool reference",
+      "notes": "The public landing page has a media-led hero and white Sign In / Try for free controls. The dark canvas here is a library adaptation, not the body background or a verified editor theme.",
+      "sources": [
+        "https://lumalabs.ai/"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: H1 Luma is your creative partner, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Try for free, computed background. Element-level observation, not a global brand token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Try for free, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "flora",
+    "name": "FLORA",
+    "title": "Connected ideas",
+    "cat": "AI Creation",
+    "url": "https://flora.ai/",
+    "kind": "workflow",
+    "bg": "#000000",
+    "surface": "#181818",
+    "ink": "#F5F5F5",
+    "muted": "#B4B4B4",
+    "accent": "#EEEEEE",
+    "action": "#EEEEEE",
+    "on": "#000000",
+    "line": "#363636",
+    "c2": "#4F6457",
+    "c3": "#635570",
+    "bodyFace": "Geist (computed body)",
+    "headline": "Connect the next idea.",
+    "note": "A neutral dark study for branching references and reusable creative processes.",
+    "cta": "Open canvas",
+    "use": "An infinite canvas for creative teams, moodboards, and storyboard exploration.",
+    "principles": [
+      "Use a clear connector direction to explain how one result feeds the next.",
+      "Keep node controls compact and make selected nodes distinct.",
+      "Group related explorations so a large canvas remains navigable."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public creative-tool reference",
+      "notes": "The public page presents an infinite canvas, model workflows, moodboards and video/storyboard use cases. Body colors and an Explore Canvas link were measured; the authenticated canvas was not inspected.",
+      "sources": [
+        "https://flora.ai/"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed background. Element-level observation, not a global brand token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Techniques →, computed color. Element-level observation, not a global brand token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Explore Canvas →, computed background. Element-level observation, not a global brand token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Explore Canvas →, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "webtoon",
+    "name": "WEBTOON",
+    "title": "Story discovery",
+    "cat": "Comics",
+    "url": "https://www.webtoons.com/en/",
+    "kind": "shelf",
+    "bg": "#FFFFFF",
+    "surface": "#F3F4F5",
+    "ink": "#000000",
+    "muted": "#666666",
+    "accent": "#148449",
+    "action": "#000000",
+    "on": "#FFFFFF",
+    "line": "#DDDDDD",
+    "c2": "#D6E7D9",
+    "c3": "#E9DDCA",
+    "bodyFace": "System UI stack (computed body)",
+    "headline": "Find your next chapter.",
+    "note": "A cover-first study of genre browsing, rankings, and daily updates.",
+    "cta": "Read series",
+    "use": "Comic discovery, BL story shelves, genre navigation, and release schedules.",
+    "principles": [
+      "Keep title and update information close to each cover.",
+      "Give categories, rankings, and release days separate browsing roles.",
+      "Use a quiet page surface to let illustrated covers carry the color."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public comic-catalog reference",
+      "notes": "The English homepage exposes Trending/Popular controls, genre sections and daily schedules. The green accent and cover colors are library choices, not verified brand values. Episode reading and purchase flows were not inspected.",
+      "sources": [
+        "https://www.webtoons.com/en/"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "surface": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Log In, computed background. Element-level observation, not a global brand token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: H2 Trending & Popular Series, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: A Trending / View all, computed color. Element-level observation, not a global brand token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Trending, computed background. Element-level observation, not a global brand token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Trending, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "tapas",
+    "name": "Tapas",
+    "title": "Community shelves",
+    "cat": "Comics",
+    "url": "https://tapas.io/",
+    "kind": "shelf",
+    "bg": "#FFFFFF",
+    "surface": "#F4F4F4",
+    "ink": "#000000",
+    "muted": "#626262",
+    "accent": "#A65B00",
+    "action": "#000000",
+    "on": "#FFFFFF",
+    "line": "#DEDEDE",
+    "c2": "#EBD7AC",
+    "c3": "#D6DCEC",
+    "bodyFace": "System UI stack (computed body); Inter on Login button",
+    "headline": "Stories worth coming back for.",
+    "note": "A library study of discovery shelves and distinct reader/creator entry points.",
+    "cta": "Explore comics",
+    "use": "Serialized comics, novels, community publishing, and returning readers.",
+    "principles": [
+      "Separate reading from publishing so each audience has a clear entry point.",
+      "Use shelf headings to explain why a story is being recommended.",
+      "Make format and genre labels readable without covering the artwork."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public comic-catalog reference",
+      "notes": "The public homepage separates Comics, Novels and Community, and exposes Login and Publish controls. Body and Login button styles were measured. Amber and illustrated-cover colors are library adaptations; reader and creator dashboards remain unverified.",
+      "sources": [
+        "https://tapas.io/"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed background. Element-level observation, not a global brand token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Login, computed background. Element-level observation, not a global brand token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Login, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "manta",
+    "name": "Manta",
+    "title": "After-dark reading",
+    "cat": "Comics",
+    "url": "https://manta.net/en",
+    "kind": "shelf",
+    "bg": "#000000",
+    "surface": "#171A22",
+    "ink": "#EDF0F7",
+    "muted": "#A5AAB7",
+    "accent": "#4D4AFF",
+    "action": "#4D4AFF",
+    "on": "#EDF0F7",
+    "line": "#363B48",
+    "c2": "#44446B",
+    "c3": "#5A4557",
+    "bodyFace": "Poppins (computed body)",
+    "headline": "One more chapter tonight.",
+    "note": "A dark reading-discovery study with a measured violet cookie-control color.",
+    "cta": "Browse stories",
+    "use": "Manhwa, manga and novel catalogs; evening reading and completed-series discovery.",
+    "principles": [
+      "Keep cover art bright against a quiet dark surface.",
+      "Make completed status and update cadence easy to scan.",
+      "Treat reading actions and membership actions as different priorities."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public comic-catalog reference",
+      "notes": "The public shell exposes COMIC/MANGA/NOVEL and Genres/Daily/Completed/Trending. Violet was measured on cookie-consent buttons only; using it for the sample action is an adaptation, not a verified reading CTA. Muted text is lightened for this sample. Reader and membership flows remain unverified.",
+      "sources": [
+        "https://manta.net/en"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed background. Element-level observation, not a global brand token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "accent": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Decline all, computed background. Element-level observation, not a global brand token. Cookie-control role only; brand role unverified."
+        },
+        "action": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "on": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BUTTON Decline all, computed color. Element-level observation, not a global brand token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
+  {
+    "id": "lezhin",
+    "name": "Lezhin Comics",
+    "title": "Serial drama",
+    "cat": "Comics",
+    "url": "https://www.lezhinus.com/en",
+    "kind": "shelf",
+    "bg": "#FFFFFF",
+    "surface": "#F5F5F7",
+    "ink": "#111115",
+    "muted": "#64646C",
+    "accent": "#B9253B",
+    "action": "#111115",
+    "on": "#FFFFFF",
+    "line": "#DEDEE3",
+    "c2": "#ECD3D8",
+    "c3": "#D6D8E8",
+    "bodyFace": "Pretendard Variable / Pretendard (computed body)",
+    "headline": "A new episode awaits.",
+    "note": "A clean catalog study for recurring series and chapter discovery.",
+    "cta": "View series",
+    "use": "BL and romance comics, serialized releases, and series catalog navigation.",
+    "principles": [
+      "Keep series discovery distinct from episode selection.",
+      "Make release schedules and rankings easy to compare.",
+      "Present access conditions before the reader commits to an episode."
+    ],
+    "face": "Unverified display family",
+    "css": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "bodyCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "controlCss": "\"Inter\", \"Helvetica Neue\", sans-serif",
+    "weight": 500,
+    "track": "-0.025em",
+    "features": "normal",
+    "r": "10px",
+    "rc": "16px",
+    "shadow": "none",
+    "batch": "2026-10-29",
+    "study": {
+      "status": "partial",
+      "checkedAt": "2026-10-29",
+      "scope": "Public comic-catalog reference",
+      "notes": "The English public catalog exposes Daily, Rankings, Free, Genre and release listings. Body background and text were measured. Crimson, controls and cover colors are library adaptations. Episode access, pricing and authenticated reading were not inspected.",
+      "sources": [
+        "https://www.lezhinus.com/en"
+      ],
+      "fontStatus": "observed",
+      "fontNote": "Body font-family declaration measured on the public page only. Display family and actual rendered font face are unverified. Inter is the library preview substitute.",
+      "shapeNote": "All sample radii, shadows, weight, tracking and layouts are library adaptations. The preview is not a screenshot of the source interface.",
+      "evidence": {
+        "bg": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed background. Element-level observation, not a global brand token."
+        },
+        "surface": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "ink": {
+          "status": "observed",
+          "reference": "2026-10-29 public page: BODY, computed color. Element-level observation, not a global brand token."
+        },
+        "muted": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "accent": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "action": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "on": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "line": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c2": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        },
+        "c3": {
+          "status": "adapted",
+          "reference": "Library-selected sample value; not a verified website token."
+        }
+      }
+    }
+  },
   {
     "id": "linear",
     "name": "Linear",

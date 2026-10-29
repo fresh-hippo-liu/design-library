@@ -90,7 +90,7 @@ test("a documented correction reaches the exported action and its rendered sampl
 });
 
 test("all themes describe their scope, font substitutes, and field-level evidence", () => {
-  assert.equal(systems.length, 30);
+  assert.equal(systems.length, 38);
   for (const system of systems) {
     assert.ok(system.study?.scope, `${system.id}: missing scope`);
     assert.ok(system.study?.sources.length, `${system.id}: missing sources`);
@@ -107,4 +107,22 @@ test("native-font themes export usable CSS without an empty hosted-font request"
   const system = systems.find((s) => s.id === "teenage");
   assert.doesNotMatch(context.cssBlock(system), /@import/);
   assert.equal(declarations(context.cssBlock(system))["--display"], '"Helvetica Neue", Helvetica, Arial, sans-serif');
+});
+
+
+test("new research batch stays discoverable and preserves verification limits", () => {
+  const batch = systems.filter((s) => s.batch === "2026-10-29");
+  assert.equal(batch.length, 8);
+  assert.equal(batch.filter((s) => s.cat === "AI Creation").length, 4);
+  assert.equal(batch.filter((s) => s.cat === "Comics").length, 4);
+  assert.equal(new Set(systems.map((s) => s.id)).size, systems.length);
+  assert.match(context.gallery(), /38 website style studies/);
+  const krea = batch.find((s) => s.id === "krea");
+  assert.equal(krea.study.status, "unverified");
+  assert.match(context.cssBlock(krea), /certificate error/);
+  assert.ok(Object.values(krea.study.evidence).every((e) => e.status === "adapted"));
+  for (const s of batch) {
+    assert.match(context.cssBlock(s), /not a screenshot/);
+    assert.match(context.detail(s), /Unverified display family/);
+  }
 });

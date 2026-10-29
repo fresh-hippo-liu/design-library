@@ -1,4 +1,4 @@
-const CATS = ["All", "Product", "Finance", "Retail", "Editorial", "Media", "Tools"];
+const CATS = ["All", "AI Creation", "Comics", "Product", "Finance", "Retail", "Editorial", "Media", "Tools"];
 
 const state = {
   cat: "All",
@@ -94,7 +94,7 @@ function gallery() {
     return `<p class="empty">Nothing matches. Try another site, or another feeling.</p>`;
   }
   return `
-    <p class="collection-note">30 website style studies. Each detail separates observed values, unverified samples, and library adaptations. Preview fonts are substitutes; these are not official brand systems.</p>
+    <p class="collection-note">${SYSTEMS.length} website style studies. Each detail separates observed values, unverified samples, and library adaptations. Preview fonts are substitutes; these are not official brand systems.</p>
     <div class="grid">
       ${items.map(card).join("")}
     </div>
@@ -154,7 +154,7 @@ const MARK = {
 };
 
 function previewText(system) {
-  return MARK[system.id] || "";
+  return MARK[system.id] || (system.batch ? system.name : "");
 }
 
 function chip(system) {

@@ -35,7 +35,7 @@ window.Theme = (() => {
   }
 
   function palette(system) {
-    return colors.map(([key, name]) => ({ key, name, value: system[key], ...system.study.evidence[key] }));
+    return colors.map(([key, name]) => ({ key, name: key === "accent" && system.batch ? "Sample accent" : name, value: system[key], ...system.study.evidence[key] }));
   }
 
   function fontUrl(system) {

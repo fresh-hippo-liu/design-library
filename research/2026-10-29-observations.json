@@ -1,0 +1,1033 @@
+{
+  "checkedAt": "2026-10-29",
+  "method": "Read-only browser computed styles on public pages. Font declarations do not prove rendered font faces. No authenticated workspaces inspected.",
+  "krea": "Public text retrieved; browser certificate error prevented visual/style verification.",
+  "pages": {
+    "runway": {
+      "elements": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(64, 64, 64)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Creative"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Dev"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Robotics"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Research"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Resources"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Enterprise"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(12, 12, 12)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Pricing"
+        },
+        {
+          "background": "rgb(238, 241, 245)",
+          "color": "rgb(26, 26, 26)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "6px",
+          "tag": "A",
+          "text": "Login"
+        },
+        {
+          "background": "rgb(38, 38, 38)",
+          "color": "rgb(255, 255, 255)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "6px",
+          "tag": "A",
+          "text": "Try Runway"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "See terms"
+        },
+        {
+          "background": "rgba(247, 247, 247, 0.05)",
+          "color": "rgb(255, 255, 255)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "4px",
+          "tag": "A",
+          "text": "Contact sales"
+        },
+        {
+          "background": "rgb(12, 12, 12)",
+          "color": "rgb(255, 255, 255)",
+          "font": "abcNormal, \"abcNormal Fallback\"",
+          "radius": "9999px",
+          "tag": "A",
+          "text": "Get Started"
+        }
+      ],
+      "title": "Runway Workflows | Runway AI",
+      "url": "https://runway.com/workflows"
+    },
+    "luma": {
+      "elements": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Luma company logo"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Product"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Pricing"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "API"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Enterprise"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "News"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Join us"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "1.67772e+07px",
+          "tag": "A",
+          "text": "Sign In"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Luma company logo"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Product"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Pricing"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "API"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Enterprise"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "News"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Join us"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "1.67772e+07px",
+          "tag": "A",
+          "text": "Sign In"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "0px",
+          "tag": "H1",
+          "text": "Luma is your creative partner"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "__graphik_7126cf, __graphik_Fallback_7126cf",
+          "radius": "1.67772e+07px",
+          "tag": "A",
+          "text": "Try for free"
+        }
+      ],
+      "title": "Luma | AI Agents for Creative Work",
+      "url": "https://lumalabs.ai/"
+    },
+    "flora": {
+      "elements": [
+        {
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Skip to content"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "CanvasEvery model on one infinite canvas"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(180, 180, 180)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Techniques →"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(180, 180, 180)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "3D Node →"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "StudiosPurpose-built tools, starting with fashion"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "MCP & APIRun FLORA from Claude, Codex or your own code"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "DecksPresent canvas work as a live deck"
+        },
+        {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Explore Canvas →"
+        },
+        {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Explore Studios →"
+        },
+        {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Explore MCP & API →"
+        },
+        {
+          "background": "rgb(238, 238, 238)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Explore Decks →"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Fashion, Retail & ApparelCatalog and campaign creative at sc"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "E-CommerceProduct imagery for every SKU"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Creative AgenciesExplore and deliver for clients"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Media & EntertainmentStoryboards, key art, and promo"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "TechnologyOn-brand creative for product teams"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(245, 245, 245)",
+          "font": "Geist, \"Geist Fallback\", ui-sans-serif, system-ui, sans-serif",
+          "radius": "12px",
+          "tag": "A",
+          "text": "Concepting & moodboardsBranch references into directions"
+        }
+      ],
+      "title": "FLORA — Generative AI Canvas for Creative Teams",
+      "url": "https://flora.ai/"
+    },
+    "webtoon": {
+      "elements": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "WEBTOON"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "ORIGINALS"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "CATEGORIES"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "RANKINGS"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "CANVAS"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "WEBTOON SHOP"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "CREATORS"
+        },
+        {
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "64px",
+          "tag": "A",
+          "text": "DASHBOARD"
+        },
+        {
+          "background": "rgb(243, 244, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "64px",
+          "tag": "BUTTON",
+          "text": "Log In"
+        },
+        {
+          "background": "rgb(243, 243, 243)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "50%",
+          "tag": "BUTTON",
+          "text": "Search"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "H2",
+          "text": "Trending & Popular Series"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(102, 102, 102)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Trending\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tView all"
+        },
+        {
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "70px",
+          "tag": "BUTTON",
+          "text": "Trending"
+        },
+        {
+          "background": "rgb(243, 243, 243)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "70px",
+          "tag": "BUTTON",
+          "text": "Popular"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "\"1\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tup4\n\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "\"2\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tup5\n\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "\"3\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tup1\n\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, SimHei, Verdana, sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "\"4\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tup4\n\t\t\t\t\t\t\t\t\t\t\t"
+        }
+      ],
+      "title": "WEBTOON - Read Comics, Manga & Manhwa",
+      "url": "https://www.webtoons.com/en/"
+    },
+    "tapas": {
+      "elements": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Home"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Comics"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Novels"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Community"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Mature"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "BUTTON",
+          "text": "More"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Login"
+        },
+        {
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "__Inter_026074, __Inter_Fallback_026074",
+          "radius": "100px",
+          "tag": "BUTTON",
+          "text": "Login"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Publish"
+        },
+        {
+          "background": "rgb(232, 232, 232)",
+          "color": "rgb(0, 0, 0)",
+          "font": "__Inter_026074, __Inter_Fallback_026074",
+          "radius": "100px",
+          "tag": "BUTTON",
+          "text": "Publish"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "font": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Just a side character? Not anymore!ComicRomance Fantasy"
+        }
+      ],
+      "title": "Home | Spotlight",
+      "url": "https://tapas.io/"
+    },
+    "manta": {
+      "elements": [
+        {
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\", sans-serif",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgb(77, 74, 255)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "8px",
+          "tag": "BUTTON",
+          "text": "Decline all"
+        },
+        {
+          "background": "rgb(77, 74, 255)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "8px",
+          "tag": "BUTTON",
+          "text": "Accept all"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "COMIC"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(115, 120, 133)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "MANGA"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(115, 120, 133)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "A",
+          "text": "NOVEL"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "BUTTON",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "BUTTON",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "0px",
+          "tag": "BUTTON",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "18px",
+          "tag": "BUTTON",
+          "text": "Genres"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "18px",
+          "tag": "BUTTON",
+          "text": "DailyN"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "18px",
+          "tag": "BUTTON",
+          "text": "Completed"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(237, 240, 247)",
+          "font": "Poppins, \"Poppins Fallback\"",
+          "radius": "18px",
+          "tag": "BUTTON",
+          "text": "Trending"
+        }
+      ],
+      "title": "Manta - Manhwa and Your Next Binge Read",
+      "url": "https://manta.net/en"
+    },
+    "lezhin": {
+      "elements": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "BODY",
+          "text": "[body]"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "H1",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Daily"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Rankings"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Free"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Genre +"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Events"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "LezhinSnack"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "BUTTON",
+          "text": ""
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "4px",
+          "tag": "BUTTON",
+          "text": "Calendar"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "More"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "The Dawn to Come"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "My Bias Is Showing?! - All-Ages Edition"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Love Me Again - All-Ages Edition"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "The Tyrant's Crush"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "President Long-Legs"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 21)",
+          "font": "\"Pretendard Variable\", Pretendard, -apple-system, \"system-ui\", system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+          "radius": "0px",
+          "tag": "A",
+          "text": "Breathing the Same Air - All-Ages Edition"
+        }
+      ],
+      "title": "Lezhin Comics - Your Fantasy, Our Content",
+      "url": "https://www.lezhinus.com/en"
+    }
+  }
+}

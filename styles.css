@@ -720,3 +720,47 @@ pre.css {
   .swatches { grid-template-columns: 1fr; }
   .collection-note { margin-inline: 16px; }
 }
+
+/* Abstract reference thumbnails, not replicas of the source products. */
+.pv[data-kind="workflow"] .s1,
+.pv[data-kind="workflow"] .s2,
+.pv[data-kind="workflow"] .s3 {
+  top: 36px;
+  width: 25%;
+  height: 58px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.pv[data-kind="workflow"] .s1 { left: 7%; background: var(--c2); }
+.pv[data-kind="workflow"] .s2 { left: 38%; }
+.pv[data-kind="workflow"] .s3 { left: 69%; background: var(--c3); }
+.pv[data-kind="workflow"]::before {
+  content: "";
+  position: absolute;
+  inset: 64px 14% auto;
+  height: 1px;
+  background: var(--muted);
+  pointer-events: none;
+}
+.pv[data-kind="workflow"] b,
+.pv[data-kind="shelf"] b {
+  left: 16px;
+  bottom: 16px;
+  font-size: 17px;
+  letter-spacing: -0.02em;
+}
+.pv[data-kind="shelf"] .s1,
+.pv[data-kind="shelf"] .s2,
+.pv[data-kind="shelf"] .s3 {
+  top: 18px;
+  width: 24%;
+  height: 96px;
+  border-radius: 4px 8px 8px 4px;
+  background: var(--c2);
+  box-shadow: inset 3px 0 0 rgba(0, 0, 0, 0.08);
+}
+.pv[data-kind="shelf"] .s1 { left: 10%; }
+.pv[data-kind="shelf"] .s2 { left: 38%; background: var(--c3); }
+.pv[data-kind="shelf"] .s3 { left: 66%; background: var(--accent); }
